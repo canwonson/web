@@ -23,7 +23,10 @@ class IndexController extends Controller
 		sort( $tmpArr , SORT_STRING);
 		$tmpStr    = implode( $tmpArr );
 		$tmpStr    = sha1( $tmpStr );
-
+		print $signature;
+		print $noce;
+		print $timestamp;
+		print $token;
 		if ($tmpStr == $signature) {
 			return true;
 		}else{
