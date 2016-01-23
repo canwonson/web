@@ -1,0 +1,12 @@
+[ 2016-01-23T10:19:20+08:00 ] 127.0.0.1 /web/index.php/Dweixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Dweixin
+
+[ 2016-01-23T10:20:47+08:00 ] 127.0.0.1 /web/index.php/Weixin1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Weixin1
+

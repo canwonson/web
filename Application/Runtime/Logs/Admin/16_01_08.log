@@ -1,0 +1,144 @@
+[ 2016-01-08T15:09:22+08:00 ] 127.0.0.1 /web/index.php/Admin/AdminMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-08T15:09:22+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-08T15:09:25+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `web_admin_account` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`account`,`password`,`name`,`login_count`,`lock_time`,`error_count`,`role_id` FROM `web_admin_account` WHERE ( status=1 and (account='jianhuanxin') ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-01-08T15:09:30+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `web_admin_account` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`account`,`password`,`name`,`login_count`,`lock_time`,`error_count`,`role_id` FROM `web_admin_account` WHERE ( status=1 and (account='admin') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `web_admin_account` SET `error_count`=error_count+1 WHERE ( id=1 ) [ RunTime:0.0500s ]
+
+[ 2016-01-08T15:09:31+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin_account` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`account`,`password`,`name`,`login_count`,`lock_time`,`error_count`,`role_id` FROM `web_admin_account` WHERE ( status=1 and (account='admin') ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `web_admin_account` SET `error_count`=error_count+1 WHERE ( id=1 ) [ RunTime:0.0760s ]
+
+[ 2016-01-08T15:09:31+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `web_admin_account` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`account`,`password`,`name`,`login_count`,`lock_time`,`error_count`,`role_id` FROM `web_admin_account` WHERE ( status=1 and (account='admin') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `web_admin_account` SET `error_count`=error_count+1 WHERE ( id=1 ) [ RunTime:0.0700s ]
+
+[ 2016-01-08T15:09:31+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `web_admin_account` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`account`,`password`,`name`,`login_count`,`lock_time`,`error_count`,`role_id` FROM `web_admin_account` WHERE ( status=1 and (account='admin') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `web_admin_account` SET `error_count`=error_count+1 WHERE ( id=1 ) [ RunTime:0.0350s ]
+
+[ 2016-01-08T15:09:32+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `web_admin_account` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`account`,`password`,`name`,`login_count`,`lock_time`,`error_count`,`role_id` FROM `web_admin_account` WHERE ( status=1 and (account='admin') ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `web_admin_account` SET `error_count`=error_count+1 WHERE ( id=1 ) [ RunTime:0.0520s ]
+
+[ 2016-01-08T15:09:32+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `web_admin_account` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`account`,`password`,`name`,`login_count`,`lock_time`,`error_count`,`role_id` FROM `web_admin_account` WHERE ( status=1 and (account='admin') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `web_admin_account` SET `lock_time`='1452238772' WHERE ( id=1 ) [ RunTime:0.0600s ]
+
+[ 2016-01-08T15:09:32+08:00 ] 127.0.0.1 /web/index.php/Admin/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] include(./Conf/config.php): failed to open stream: No such file or directory E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] include(): Failed opening './Conf/config.php' for inclusion (include_path='.;C:\php\pear') E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array E:\WWW\web\Application\Admin\Conf\config.php 第 15 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `web_admin_account` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`account`,`password`,`name`,`login_count`,`lock_time`,`error_count`,`role_id` FROM `web_admin_account` WHERE ( status=1 and (account='admin') ) LIMIT 1   [ RunTime:0.0000s ]
+

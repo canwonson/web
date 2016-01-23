@@ -1,0 +1,2081 @@
+[ 2016-01-22T18:47:20+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-01-22T18:48:21+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-22T18:48:22+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:50:25+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:50:40+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:50:52+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:51:04+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:51:24+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:51:25+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:51:25+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:51:25+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:51:48+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:51:55+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:51:56+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:52:17+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:52:18+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:52:19+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:52:19+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:52:19+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:52:22+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:52:22+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:52:23+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:52:23+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:52:28+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T18:54:02+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T18:54:09+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:07:04+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:09:24+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:09:29+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:10:29+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:10:30+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:23:36+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:25:22+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 24 行.
+
+[ 2016-01-22T19:26:16+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:26:17+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:26:17+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:26:18+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:26:18+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:26:18+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:26:19+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:26:19+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-22T19:26:19+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:26:26+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 24 行.
+
+[ 2016-01-22T19:26:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:26:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:26:44+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:26:44+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:27:14+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:27:37+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 24 行.
+
+[ 2016-01-22T19:27:38+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 24 行.
+
+[ 2016-01-22T19:27:38+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 24 行.
+
+[ 2016-01-22T19:27:38+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 24 行.
+
+[ 2016-01-22T19:27:39+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 24 行.
+
+[ 2016-01-22T19:28:34+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T19:28:35+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T19:28:35+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T19:28:35+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T19:28:35+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T19:28:35+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T19:28:36+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T19:28:36+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T19:28:46+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 26 行.
+
+[ 2016-01-22T19:29:54+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 26 行.
+
+[ 2016-01-22T19:30:31+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 26 行.
+
+[ 2016-01-22T19:30:35+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 26 行.
+
+[ 2016-01-22T19:30:38+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 26 行.
+
+[ 2016-01-22T19:30:46+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 26 行.
+
+[ 2016-01-22T19:32:02+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:32:17+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:33:15+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:33:32+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-22T19:37:09+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:37:10+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:37:24+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 11 行.
+
+[ 2016-01-22T19:38:06+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:19+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:29+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:38:36+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:38:39+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:38:40+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:38:41+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:38:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:38:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:43+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:44+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:45+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:46+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:46+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:46+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:46+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:50+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:54+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:57+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:38:59+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:39:02+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:39:03+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:39:45+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:39:47+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:39:49+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:40:27+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:40:30+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:40:32+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:40:45+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:40:50+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:40:58+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:40:59+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:41:01+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:41:03+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 12 行.
+
+[ 2016-01-22T19:41:08+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 13 行.
+
+[ 2016-01-22T19:41:14+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:41:23+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:41:33+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Object of class DataGrabber\Controller\HtmlParserController could not be converted to int E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: HtmlParser E:\WWW\web\Application\DataGrabber\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:41:42+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:41:50+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+ERR: Think\Controller:p方法不存在！
+
+[ 2016-01-22T19:42:22+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:42:24+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:42:30+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:42:41+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:42:57+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:46:26+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:46:59+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:51:25+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:51:28+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:52:17+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:52:24+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:52:38+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:52:52+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:53:02+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:53:13+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [2] preg_match(): Delimiter must not be alphanumeric or backslash E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:53:23+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:53:38+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:55:10+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:56:16+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined offset: 0 E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T19:56:37+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined offset: 0 E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:56:48+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-22T19:57:08+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [8] Undefined offset: 0 E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-22T19:58:55+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T19:59:38+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:00:32+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:01:12+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:02:24+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:09:39+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:09:47+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:14:39+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:15:04+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:15:24+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:15:37+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:16:28+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [2] preg_match_all(): Unknown modifier 'd' E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:16:48+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-22T20:17:08+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:17:12+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:18:10+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:18:45+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:19:06+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:19:36+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:20:02+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:20:10+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:20:28+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:20:58+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:22:05+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [2] preg_match_all(): No ending delimiter '/' found E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:22:26+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-22T20:22:42+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:24:41+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:25:14+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:25:32+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:25:38+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:26:53+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:28:07+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:46:09+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:47:52+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 267 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 267 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 285 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 306 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 440 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 528 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 532 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 267 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 267 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 285 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 306 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 440 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 528 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 532 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-22T20:50:22+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 98 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 150 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 382 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 385 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 385 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 498 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag aside invalid in Entity, line: 1222 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1659 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 98 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 150 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 382 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 385 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 385 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 498 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag aside invalid in Entity, line: 1222 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1659 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:55:27+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T20:57:17+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T20:57:40+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-22T20:57:53+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] require(\Lib\Net\phpQuery): failed to open stream: No such file or directory E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 4 行.
+
+[ 2016-01-22T20:58:04+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] require(\Lib\Net\phpQuery.php): failed to open stream: No such file or directory E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 4 行.
+
+[ 2016-01-22T20:58:05+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] require(\Lib\Net\phpQuery.php): failed to open stream: No such file or directory E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 4 行.
+
+[ 2016-01-22T20:58:05+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] require(\Lib\Net\phpQuery.php): failed to open stream: No such file or directory E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 4 行.
+
+[ 2016-01-22T20:58:06+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] require(\Lib\Net\phpQuery.php): failed to open stream: No such file or directory E:\WWW\web\Application\DataGrabber\Controller\HtmlParserController.class.php 第 4 行.
+
+[ 2016-01-22T20:58:57+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+
+[ 2016-01-22T20:59:17+08:00 ] 127.0.0.1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 98 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 150 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 463 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 466 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 466 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 579 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag aside invalid in Entity, line: 1219 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1674 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag header invalid in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag nav invalid in Entity, line: 98 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag section invalid in Entity, line: 150 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 463 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 466 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 466 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 579 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag aside invalid in Entity, line: 1219 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 1674 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

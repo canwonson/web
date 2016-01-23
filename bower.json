@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "description": "My awesome web",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor/bower_dl",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "AdminLTE": "admin-lte#~2.3.2",
+    "rdash-ui": "~1.0.1"
+  }
+}
