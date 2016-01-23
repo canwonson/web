@@ -2,7 +2,7 @@
 namespace Weixin\Controller;
 use Think\Controller;
 
-define("TOKEN", "jian");
+define("TOKEN", "jian1");
 
 class IndexController extends Controller
 {
@@ -19,6 +19,7 @@ class IndexController extends Controller
 		$timestamp = I('get.timestamp');
 		$noce      = I('get.noce');
 		$token     = TOKEN;
+		echo $token;
 		$tmpArr    = array( $token , $timestamp , $noce );
 		sort( $tmpArr , SORT_STRING);
 		$tmpStr    = implode( $tmpArr );
