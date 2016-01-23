@@ -978,3 +978,213 @@ NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line:
 NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 494 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
 NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 498 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
 
+[ 2016-01-23T15:20:39+08:00 ] ::1 /web/index.php/DataGrabber
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: method E:\WWW\web\Application\Lib\Net\Curl.class.php 第 25 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 42 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 251 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 272 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 406 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 494 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 498 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 239 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 239 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 257 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 278 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 412 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 500 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 504 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 251 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 272 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 406 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 494 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 498 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 250 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 405 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 493 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 251 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 272 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 406 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 494 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 498 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 236 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 236 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 254 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 275 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 409 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 501 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 250 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 405 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 493 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 238 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 238 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 256 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 277 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 411 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 499 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 503 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 236 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 236 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 254 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 275 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 409 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 501 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 235 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 235 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 253 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 274 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 408 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 496 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 500 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 235 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 235 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 253 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 274 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 408 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 496 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 500 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 250 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 405 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 493 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 250 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 405 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 493 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 241 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 241 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 259 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 280 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 414 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 502 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 506 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 251 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 272 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 406 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 494 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 498 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 250 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 405 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 493 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 232 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 250 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 271 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 405 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 493 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 233 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 251 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 272 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 406 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 494 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 498 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 238 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 238 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 256 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 277 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 411 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 499 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 503 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): ID dy already defined in Entity, line: 93 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 153 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 236 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 236 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 254 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): htmlParseStartTag: invalid element name in Entity, line: 275 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : script in Entity, line: 409 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 497 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+NOTIC: [2] DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 501 E:\WWW\web\vendor\jaeger\phpquery-single\phpQuery.php 第 328 行.
+

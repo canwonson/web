@@ -10,9 +10,9 @@ class IndexController extends Controller
 		$echoStr   = I('get.echostr');
 		$signature = I('get.signature');
 		$timestamp = I('get.timestamp');
-		$noce      = I('get.noce');
+		$nonce      = I('get.nonce');
 		$token     = TOKEN;
-		$tmpArr    = array( $token , $timestamp , $noce );
+		$tmpArr    = array( $token , $timestamp , $nonce );
 		sort( $tmpArr , SORT_STRING);
 		$tmpStr    = implode( $tmpArr );
 		$tmpStr    = sha1( $tmpStr );
