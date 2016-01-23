@@ -7,14 +7,7 @@ define("TOKEN", "jian1");
 class IndexController extends Controller
 {
 	public function index(){
-		$echoStr = I('get.echostr');
-		if ( $this->checkSignature()) {
-			echo $echoStr;
-        	exit;
-		}
-	}
-
-	public function checkSignature(){
+		$echoStr   = I('get.echostr');
 		$signature = I('get.signature');
 		$timestamp = I('get.timestamp');
 		$noce      = I('get.noce');
@@ -23,14 +16,9 @@ class IndexController extends Controller
 		sort( $tmpArr , SORT_STRING);
 		$tmpStr    = implode( $tmpArr );
 		$tmpStr    = sha1( $tmpStr );
-		print $signature;
-		print $noce;
-		print $timestamp;
-		print $token;
 		if ($tmpStr == $signature) {
-			return true;
-		}else{
-			return false;
+			echo $echoStr;
+        	exit;
 		}
 	}
 
