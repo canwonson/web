@@ -59,7 +59,7 @@ class IndexController extends Controller
 				if( $keyword == 'pic')
 				{
                 	$msgType = "image";
-                	$contentStr = "http://www.hostloc.com/uc_server/avatar.php?uid=9623&size=middle";
+                	$contentStr = "http://www.hostloc.com/uc_server/data/avatar/000/00/96/23_avatar_middle.jpg";
                 	$resultStr = sprintf($tpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
                 }
