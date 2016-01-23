@@ -39,7 +39,7 @@ class IndexController extends Controller
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
-                $textTpl = "<xml>
+                $tpl = "<xml>
 							<ToUserName><![CDATA[%s]]></ToUserName>
 							<FromUserName><![CDATA[%s]]></FromUserName>
 							<CreateTime>%s</CreateTime>
@@ -53,8 +53,11 @@ class IndexController extends Controller
                 	$contentStr = "Welcome to wechat world!";
                 	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
-                }else{
-                	echo "Input something...";
+                }elseif( $keyword == 'pic'){
+                	$msgType = "image";
+                	$contentStr = "http://www.hostloc.com/uc_server/avatar.php?uid=9623&size=middle";
+                	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                	echo $resultStr;
                 }
 
         }else {
