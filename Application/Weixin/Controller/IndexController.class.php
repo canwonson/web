@@ -52,7 +52,7 @@ class IndexController extends Controller
 				{
                 	$msgType = "text";
                 	$contentStr = "Welcome to wechat world!";
-                	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                	$resultStr = sprintf($tpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
                 }
 
@@ -60,7 +60,7 @@ class IndexController extends Controller
 				{
                 	$msgType = "image";
                 	$contentStr = "http://www.hostloc.com/uc_server/avatar.php?uid=9623&size=middle";
-                	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                	$resultStr = sprintf($tpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
                 }
 
@@ -68,7 +68,7 @@ class IndexController extends Controller
                 {
               		$msgType = "text";
                 	$contentStr = "Welcome to wechat world!";
-                	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                	$resultStr = sprintf($tpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
                 }
 
