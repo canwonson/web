@@ -8,6 +8,7 @@ class Curl
 	public $method = 'get';
 	public $params = array();
 	public $data = array();
+	public $headers =array();
 
 	private $ch = null;
 
@@ -19,8 +20,6 @@ class Curl
 	}
 
 	public function exec(){
-		$user_agent = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0";
-		$headers['User-Agent'] = $user_agent;
 		$params = is_array($this->params) ? http_build_query($this->params) : $this->params;
 		if ($method == 'post') {
 			curl_setopt($this->ch, CURLOPT_URL, $this->url);
