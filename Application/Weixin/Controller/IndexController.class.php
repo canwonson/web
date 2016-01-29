@@ -78,7 +78,7 @@ class IndexController extends Controller
                 	echo $resultStr;
                 }
 
-				if( $keyword == 'pic')
+				/*if( $keyword == 'pic')
 				{
                 	$msgType = "image";
                 	$type = 'image';
@@ -90,7 +90,7 @@ class IndexController extends Controller
                 	$info = json_decode($result);
                 	$resultStr = sprintf($tpl, $fromUsername, $toUsername, $time, $msgType, $info['media_id']);
                 	echo $resultStr;
-                }
+                }*/
 
                 if( $keyword == 'article')
 				{

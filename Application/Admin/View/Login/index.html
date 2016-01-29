@@ -33,7 +33,7 @@
   <div class="login-box-body">
     <p class="login-box-msg">Sign in</p>
 
-    <form action="<{:U('login')}>" method="post" id="form_login">
+    <form action="javascript:;" method="post" id="form_login">
       <div class="form-group has-feedback">
         <input type="text" class="form-control" placeholder="account" name="account">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -74,14 +74,14 @@
 <script src="__PUBLIC__/admin/plugins/iCheck/icheck.min.js"></script>
 <script>
   $(function () {
-    $("form_login").submit(function(){
-      var self = $(this);
-      var url = self.attr("action");
+    $('#login').click(function(){
+      var data=$('#form_login').serialize();
       $.ajax({
-        url:url,
+        url:'__CONTROLLER__/login',
         type:'post',
         datatype:'json',
-        data:self.serialize(),
+        data:data,
+        timeout:10000,
         success:function(msg){
           if(typeof(msg.status)=='undefined'){
             alert('系统错误');

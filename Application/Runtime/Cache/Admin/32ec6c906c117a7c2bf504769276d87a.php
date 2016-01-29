@@ -75,27 +75,29 @@
 <script>
   $(function () {
     $('#login').click(function(){
-    var data=$('#form_login').serialize();
-    $.ajax({
-      url:'/web/index.php/Admin/Login/checkLogin',
-      type:'post',
-      datatype:'json',
-      data:data,
-      success:function(msg){
-        if(typeof(msg.status)=='undefined'){
-          alert('系统错误');
-        }else{
-          //var sign=msg.status==1? sign_ok :sign_waring;
-          if(msg.status==1){
-            $('#result').html(msg.info);
-            window.parent.location="/web/index.php/Admin";
+      var data=$('#form_login').serialize();
+      $.ajax({
+        url:'/web/index.php/Admin/Login/login',
+        type:'post',
+        datatype:'json',
+        data:data,
+        timeout:10000,
+        success:function(msg){
+          if(typeof(msg.status)=='undefined'){
+            alert('系统错误');
+          }else{
+            //var sign=msg.status==1? sign_ok :sign_waring;
+            if(msg.status==1){
+              $('#result').html(msg.info);
+              var url="index";
+              window.parent.location=url;
+            }
+            if(msg.status==0){
+              $('#result').html(msg.info);
+            }
           }
-          if(msg.status==0){
-            $('#result').html(msg.info);
-          }
-        }
-      },
-    });
+        },
+      });
     });
 
     $('input').iCheck({
