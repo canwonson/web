@@ -53,16 +53,28 @@ class IndexController extends Controller
                 	$resultStr = $tpl;
                 	echo $resultStr;
                 }
+                $textTpl = "<xml>
+							<ToUserName><![CDATA[%s]]></ToUserName>
+							<FromUserName><![CDATA[%s]]></FromUserName>
+							<CreateTime>%s</CreateTime>
+							<MsgType><![CDATA[%s]]></MsgType>
+							<Content><![CDATA[%s]]></Content>
+							<FuncFlag>0</FuncFlag>
+							</xml>";
 
                 if ($keyword == 'cs') {
                 	$WeixinUserAction = M('weixin_user_action');
                 	$action_info = array(
-		        	'userid' => 'ceshi',
+		        	'userid' => $postObj->FromUserName,
 		        	'action' => $keyword,
 		        	'time'   => time(),
 		        	'action_level' => 1
 		        	);
 		        	$WeixinUserAction->add($action_info);
+		        	$msgType = "text";
+                	$contentStr = $postObj->FromUserName;
+                	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                	echo $resultStr;
                 }
 
 				if(!empty( $keyword ))
