@@ -28,6 +28,7 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -75,7 +76,7 @@ class IndexController extends Controller
 					    "【6】情侣相 夫妻相 亲子相 女人味\n".
 					    "【7】相册 游戏 笑话 答题 点歌 树洞\n".
 					    "【8】微社区 四六级 华强北 世界杯\n\n".
-					    "更多精彩，即将亮相，敬请期待！";, "Description" =>"", "PicUrl" =>"", "Url" =>"");
+					    "更多精彩，即将亮相，敬请期待！", "Description" =>"", "PicUrl" =>"", "Url" =>"");
 					$content[] = array("Title" =>"回复对应数字查看使用方法\n发送 0 返回本菜单", "Description" =>"", "PicUrl" =>"", "Url" =>"");
                 	$tpl = $this->transmitNews($postObj,$content,$title);
                 	$resultStr = $tpl;
