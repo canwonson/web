@@ -28,9 +28,6 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-		$fromUsername ='me';
-		$keyword = 'ss';
-		$action_level = $this->actionLog($fromUsername,$keyword);
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -41,7 +38,7 @@ class IndexController extends Controller
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
-                $action_level = $this->actionLog($fromUsername,$keyword);
+                $this->actionLog($fromUsername,$keyword);
                 $textTpl = "<xml>
 							<ToUserName><![CDATA[%s]]></ToUserName>
 							<FromUserName><![CDATA[%s]]></FromUserName>
