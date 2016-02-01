@@ -39,6 +39,8 @@ class IndexController extends Controller
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
+                $action_level = $this->actionLog();
+
                 $textTpl = "<xml>
 							<ToUserName><![CDATA[%s]]></ToUserName>
 							<FromUserName><![CDATA[%s]]></FromUserName>
@@ -82,6 +84,24 @@ class IndexController extends Controller
         	echo "";
         	exit;
         }
+    }
+
+    public function actionLog($fromUsername='',$keyword='p'){
+        $WeixinUserAction = M('weixin_user_action');
+        $WeixinAction = M('weixin_action');
+        $action_list = $WeixinAction->getField('action',true);
+        if ($fromUsername && in_array($keyword,$action_list)) {
+        	$map['action']=$keyword;
+        	$action_level = $WeixinAction->where($map)->getField('action_level');
+        	$action_info = array(
+        	'userid' => $fromUsername,
+        	'action' => $keyword,
+        	'time'   => time(),
+        	'action_level' => $action_level
+        	);
+        }
+        $WeixinUserAction ->add($data);
+        return $action_level;
     }
 
     public function getList($type='newest',$source=0){
