@@ -151,6 +151,7 @@ class IndexController extends Controller
 	    		);
     		$parame = json_encode($parame);
     		$session_info['time'] = time();
+    		$session_info['keyword'] = $keyword;
     		$session_info['parame'] = $parame;
     	}
     	$session_id = $WeixinUserSession->where($map)->save($session_info);
