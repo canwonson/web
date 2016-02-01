@@ -28,7 +28,6 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -47,12 +46,38 @@ class IndexController extends Controller
 							<Content><![CDATA[%s]]></Content>
 							<FuncFlag>0</FuncFlag>
 							</xml>";
+				$newTpl = "<xml>
+<ToUserName><![CDATA[%s]]]></ToUserName>
+<FromUserName><![CDATA[%s]]]></FromUserName>
+<CreateTime><![CDATA[%s]]]></CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>2</ArticleCount>
+<Articles>
+<item>
+<Title><![CDATA[title1]]></Title>
+<Description><![CDATA[description1]]></Description>
+<PicUrl><![CDATA[picurl]]></PicUrl>
+<Url><![CDATA[url]]></Url>
+</item>
+<item>
+<Title><![CDATA[title]]></Title>
+<Description><![CDATA[description]]></Description>
+<PicUrl><![CDATA[picurl]]></PicUrl>
+<Url><![CDATA[url]]></Url>
+</item>
+</Articles>
+</xml> ";
 
 				if( $keyword == 'zx')
 				{
 					$list = $this->getList();
        				$tpl = $this->transmitNews($object, $list);
                 	$resultStr = $tpl;
+                	echo $resultStr;
+                }
+                if( $keyword == 'new')
+				{
+					$resultStr = sprintf($newTpl, $fromUsername, $toUsername, $time);
                 	echo $resultStr;
                 }
 
@@ -106,10 +131,10 @@ class IndexController extends Controller
             return;
         }
         $itemTpl = "    <item>
-        <Title>%s></Title>
-        <Description>%s></Description>
-        <PicUrl>%s></PicUrl>
-        <Url>%s></Url>
+        <Title><![CDATA[%s]]></Title>
+        <Description><![CDATA[%s]]></Description>
+        <PicUrl><![CDATA[%s]]></PicUrl>
+        <Url><![CDATA[%s]]></Url>
     </item>
 ";
         $item_str = "";
@@ -120,10 +145,10 @@ class IndexController extends Controller
             $item_str .= sprintf($itemTpl, $item['good_name'], $item['good_intr1'], $item['good_img'], $item['good_buy_url']);
         }
         $xmlTpl = "<xml>
-<ToUserName>%s></ToUserName>
-<FromUserName>%s></FromUserName>
+<ToUserName><![CDATA[%s]]></ToUserName>
+<FromUserName><![CDATA[%s]]></FromUserName>
 <CreateTime>%s</CreateTime>
-<MsgType>news</MsgType>
+<MsgType><![CDATA[news]]></MsgType>
 <ArticleCount>%s</ArticleCount>
 <Articles>
 $item_str</Articles>
