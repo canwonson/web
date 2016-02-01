@@ -53,7 +53,8 @@ class IndexController extends Controller
                 	$resultStr = $tpl;
                 	echo $resultStr;
                 }
-                $textTpl = "<xml>
+
+                 $textTpl = "<xml>
 							<ToUserName><![CDATA[%s]]></ToUserName>
 							<FromUserName><![CDATA[%s]]></FromUserName>
 							<CreateTime>%s</CreateTime>
@@ -61,10 +62,10 @@ class IndexController extends Controller
 							<Content><![CDATA[%s]]></Content>
 							<FuncFlag>0</FuncFlag>
 							</xml>";
-
-                if ($keyword == 'cs') {
-		        	$msgType = "text";
-                	$contentStr = 'as';
+				if($keyword == 'cs')
+                {
+              		$msgType = "text";
+                	$contentStr = "Welcome to wechat world!";
                 	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
                 }
