@@ -56,14 +56,10 @@ class IndexController extends Controller
 <item>
 <Title><![CDATA[title1]]></Title>
 <Description><![CDATA[description1]]></Description>
-<PicUrl><![CDATA[picurl]]></PicUrl>
-<Url><![CDATA[url]]></Url>
 </item>
 <item>
 <Title><![CDATA[title]]></Title>
 <Description><![CDATA[description]]></Description>
-<PicUrl><![CDATA[picurl]]></PicUrl>
-<Url><![CDATA[url]]></Url>
 </item>
 </Articles>
 </xml> ";
