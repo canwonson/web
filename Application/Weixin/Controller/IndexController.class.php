@@ -39,10 +39,12 @@ class IndexController extends Controller
                 $keyword = trim($postObj->Content);
                 $time = time();
                 $action_level = $this->actionLog($postObj);
-                if ($action_level) {
+                if ($action_level == 1) {
                 	$session_id = $this->getUserSeesion($fromUsername);
 	                if (!$session_id) {
-	                	$session_id = $this->createUserSession($fromUsername,$keyword);
+						$this->createUserSession($fromUsername,$keyword);
+	                }else{
+	                	$this->updateUserSession($session_id,$keyword,$action_level);
 	                }
                 }
 
@@ -100,7 +102,7 @@ class IndexController extends Controller
                 	$title = '欢迎关注好买助手';
               		$content = array();
 					$content[] = array("Title" =>"【zx】最新优惠\n".
-					    "【ss关键字】搜索优惠\n".
+					    "【ss】搜索优惠\n".
 					    "【3】暂时没有想好\n".
 					    "更多精彩，即将亮相，敬请期待！", "Description" =>"", "PicUrl" =>"", "Url" =>"");
 					$content[] = array("Title" =>"回复对应代码获取信息\n发送 0 返回本菜单", "Description" =>"", "PicUrl" =>"", "Url" =>"");
@@ -137,7 +139,21 @@ class IndexController extends Controller
     		'time'	 => time()
     		);
     	$session_id = $WeixinUserSession->add($session_info);
-    	//return $session_id['id'];
+    }
+
+    public function updateUserSession($session_id,$keyword,$action_level){
+    	$WeixinUserSession = M('weixin_user_session');
+    	$map['id'] = $session_id;
+    	$session_info = $WeixinUserSession->where($map)->select();
+    	if ($action_level == 1) {
+    		$parame = array(
+	    		'p' => 1
+	    		);
+    		$parame = json_encode($parame);
+    		$session_info['time'] = time();
+    		$session_info['parame'] = $parame;
+    	}
+    	$session_id = $WeixinUserSession->where($map)->save($session_info);
     }
 
     public function actionLog($object){
