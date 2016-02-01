@@ -41,9 +41,9 @@ class IndexController extends Controller
                 $action_level = $this->actionLog($postObj);
                 if ($action_level) {
                 	$session_id = $this->getUserSeesion($fromUsername);
-	                if (!$session_id) {
+	                /*if (!$session_id) {
 	                	$session_id = $this->createUserSession($fromUsername,$keyword);
-	                }
+	                }*/
                 }
 
                 if ($action_level || $action_level ==1) {
