@@ -38,23 +38,47 @@ class IndexController extends Controller
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
-                $this->actionLog($postObj);
-
-				if( $keyword == 'zx' || $keyword == 1)
-				{
-					$list = $this->getList();
-					$content = array();
-					foreach ($list as $key => $value) {
-						$content[$key]['Title'] = $value['good_name'];
-						$content[$key]['Description '] = $value['good_intr1'];
-						$content[$key]['PicUrl'] = $value['good_img'];
-						$content[$key]['Url'] = $value['good_buy_url'];
-					}
-					$title = '最新优惠';
-       				$tpl = $this->transmitNews($postObj,$content,$title);
-                	$resultStr = $tpl;
-                	echo $resultStr;
+                $action_level = $this->actionLog($postObj);
+                if ($action_level) {
+                	$session_id = $this->getUserSeesion($postObj);
+	                if (!$session_id) {
+	                	$session_id = $this->createUserSession($postObj,$keyword);
+	                }
                 }
+
+                if ($action_level || $action_level ==1) {
+                	if( $keyword == 'zx')
+					{
+						$list = $this->getList();
+						$content = array();
+						foreach ($list as $key => $value) {
+							$content[$key]['Title'] = $value['good_name'];
+							$content[$key]['Description '] = $value['good_intr1'];
+							$content[$key]['PicUrl'] = $value['good_img'];
+							$content[$key]['Url'] = $value['good_buy_url'];
+						}
+						$title = '最新优惠';
+	       				$tpl = $this->transmitNews($postObj,$content,$title);
+	                	$resultStr = $tpl;
+	                	echo $resultStr;
+	                }
+
+	                if ($keyword == 'ss') {
+	                	$title = '搜索优惠';
+	                	$content = array();
+	                	$content[] = array("Title" =>"搜索优惠\n".
+					    "现在直接输入关键字搜索优惠\n".
+					    "【p】上一页\n".
+					    "【n】下一页\n".
+					    "【e】退出搜索\n".
+					    "请回复操作！", "Description" =>"", "PicUrl" =>"", "Url" =>"");
+	       				$tpl = $this->transmitNews($postObj,$content,$title);
+	                	$resultStr = $tpl;
+	                	echo $resultStr;
+	                }
+                }
+
+
                 $textTpl = "<xml>
 							<ToUserName><![CDATA[%s]]></ToUserName>
 							<FromUserName><![CDATA[%s]]></FromUserName>
@@ -71,7 +95,7 @@ class IndexController extends Controller
                 	echo $resultStr;
                 }
 
-				if(!empty( $keyword ))
+				if(!empty( $keyword ) || $keyword=='m')
                 {
                 	$title = '欢迎关注好买助手';
               		$content = array();
@@ -89,6 +113,33 @@ class IndexController extends Controller
         	echo "";
         	exit;
         }
+    }
+
+    public function getUserSeesion($postObj){
+    	//获取用户回话id
+    	$userid = trim($object->FromUserName);
+    	$WeixinUserSession = M('weixin_user_session');
+    	$map['userid'] = $userid;
+    	$session_id = $WeixinUserSession->where($map)->field('max("time")')->find('id');
+    	return $session_id['id'];
+    }
+
+    public function createUserSession($postObj,$keyword){
+    	//创建用户会话
+    	$userid = trim($object->FromUserName);
+    	$WeixinUserSession = M('weixin_user_session');
+    	$parame = array(
+    		'p' => 1
+    		);
+    	$parame = json_encode($parame);
+    	$session_info = array(
+    		'userid' => $userid,
+    		'action' => $keyword,
+    		'parame' => $parame,
+    		'time'	 => time()
+    		);
+    	$session_id = $WeixinUserSession->add($session_id);
+    	return $session_id['id'];
     }
 
     public function actionLog($object){
