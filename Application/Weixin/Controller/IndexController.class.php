@@ -34,16 +34,16 @@ class IndexController extends Controller
                    the best way is to check the validity of xml by yourself */
                 libxml_disable_entity_loader(true);
               	$postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
-              	$fromUsername = $postObj->FromUserName;
+              	$fromUsername = trim($postObj->FromUserName);
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
                 $action_level = $this->actionLog($postObj);
                 if ($action_level) {
-                	$session_id = $this->getUserSeesion($postObj);
-	                /*if (!$session_id) {
-	                	$session_id = $this->createUserSession($postObj,$keyword);
-	                }*/
+                	$session_id = $this->getUserSeesion($fromUsername);
+	                if (!$session_id) {
+	                	$session_id = $this->createUserSession($fromUsername,$keyword);
+	                }
                 }
 
                 if ($action_level || $action_level ==1) {
@@ -115,25 +115,23 @@ class IndexController extends Controller
         }
     }
 
-    public function getUserSeesion($postObj){
+    public function getUserSeesion($fromUsername){
     	//获取用户回话id
-    	$userid = trim($object->FromUserName);
     	$WeixinUserSession = M('weixin_user_session');
-    	$map['userid'] = $userid;
+    	$map['userid'] = $fromUsername;
     	$session_id = $WeixinUserSession->where($map)->field('max("time")')->find('id');
     	return $session_id['id'];
     }
 
-    public function createUserSession($postObj,$keyword){
+    public function createUserSession($fromUsername,$keyword){
     	//创建用户会话
-    	$userid = trim($object->FromUserName);
     	$WeixinUserSession = M('weixin_user_session');
     	$parame = array(
     		'p' => 1
     		);
     	$parame = json_encode($parame);
     	$session_info = array(
-    		'userid' => $userid,
+    		'userid' => $fromUsername,
     		'action' => $keyword,
     		'parame' => $parame,
     		'time'	 => time()
