@@ -143,7 +143,6 @@ class IndexController extends Controller
 
     public function updateUserSession($session_id,$keyword,$action_level){
     	$WeixinUserSession = M('weixin_user_session');
-    	$map['id'] = $session_id;
     	$session_info = $WeixinUserSession->where($map)->select();
     	if ($action_level == 1) {
     		$parame = array(
@@ -154,7 +153,7 @@ class IndexController extends Controller
     		$session_info['keyword'] = $keyword;
     		$session_info['parame'] = $parame;
     	}
-    	$session_id = $WeixinUserSession->where($map)->save($session_info);
+    	$session_id = $WeixinUserSession->save($session_info);
     }
 
     public function actionLog($object){
