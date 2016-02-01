@@ -39,14 +39,6 @@ class IndexController extends Controller
                 $keyword = trim($postObj->Content);
                 $time = time();
                 $this->actionLog($fromUsername,$keyword);
-                $textTpl = "<xml>
-							<ToUserName><![CDATA[%s]]></ToUserName>
-							<FromUserName><![CDATA[%s]]></FromUserName>
-							<CreateTime>%s</CreateTime>
-							<MsgType><![CDATA[%s]]></MsgType>
-							<Content><![CDATA[%s]]></Content>
-							<FuncFlag>0</FuncFlag>
-							</xml>";
 
 				if( $keyword == 'zx' || $keyword == 1)
 				{
@@ -92,7 +84,7 @@ class IndexController extends Controller
         	$map['action'] = $keyword;
         	$action_level = $WeixinAction->where($map)->getField('action_level');
         	$action_info = array(
-        	'userid' => $fromUsername,
+        	'userid' => 'me',
         	'action' => $keyword,
         	'time'   => time(),
         	'action_level' => $action_level
