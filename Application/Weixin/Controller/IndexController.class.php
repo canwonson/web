@@ -39,7 +39,7 @@ class IndexController extends Controller
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
-                $action_level = $this->actionLog();
+                $action_level = $this->actionLog($fromUsername,$keyword);
 
                 $textTpl = "<xml>
 							<ToUserName><![CDATA[%s]]></ToUserName>
@@ -86,7 +86,7 @@ class IndexController extends Controller
         }
     }
 
-    public function actionLog($fromUsername='',$keyword='p'){
+    public function actionLog($fromUsername='',$keyword=''){
         $WeixinUserAction = M('weixin_user_action');
         $WeixinAction = M('weixin_action');
         $action_list = $WeixinAction->getField('action',true);
