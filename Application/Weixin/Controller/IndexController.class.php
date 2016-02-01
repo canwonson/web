@@ -73,31 +73,11 @@ class IndexController extends Controller
     	$Good = M('good');
         if ($type=='newest') {
         	$source && $where['source'] = $source;
-        	$list = $Good->where($where)->limit(0,5)->select();
+        	$list = $Good->where($where)->limit(0,10)->select();
         }
         return $list;
     }
 
-    public function getNewTpl($list,$fromUsername,$toUsername){
-    	$tpl_head = '<xml>
-					<ToUserName><![CDATA['.$toUsername.']]></ToUserName>
-					<FromUserName><![CDATA['.$fromUsername.']]></FromUserName>
-					<CreateTime><![CDATA['.time().']]></CreateTime>
-					<MsgType><![CDATA[news]]></MsgType>
-					<ArticleCount><![CDATA['.count($list).']]></ArticleCount>
-					<Articles>';
-		foreach ($list as $key => $value) {
-			$tpl_content .='<item>
-							<Title><![CDATA['.$value['good_name'].']]></Title>
-							<Description><![CDATA['.$value['good_intr1'].']]></Description>
-							<PicUrl><![CDATA['.$value['good_img'].']]></PicUrl>
-							<Url><![CDATA['.$value['good_buy_url'].']]></Url>
-							</item>';
-		}
-		$tpl_foot = '</Articles></xml>';
-		$tpl = $tpl_head.$tpl_content.$tpl_foot;
-		return $tpl;
-    }
 
     private function transmitNews($object, $newsArray)
     {
@@ -113,9 +93,6 @@ class IndexController extends Controller
 ";
         $item_str = "";
         foreach ($newsArray as $item){
-        	if (!$item['good_img']) {
-        		$item['good_img']='http://y.zdmimg.com/201512/03/566055fe7d0ee5899.png_a100.jpg';
-        	}
             $item_str .= sprintf($itemTpl, $item['good_name'], $item['good_intr1'], $item['good_img'], $item['good_buy_url']);
         }
         $xmlTpl = "<xml>
