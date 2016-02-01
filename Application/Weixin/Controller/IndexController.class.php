@@ -50,16 +50,35 @@ class IndexController extends Controller
 				if( $keyword == 'zx')
 				{
 					$list = $this->getList();
-       				$tpl = $this->transmitNews($postObj, $list);
+					$content = array();
+					foreach ($list as $key => $value) {
+						$content[$key]['Title'] = $value['good_name'];
+						$content[$key]['Description '] = $value['good_intr1'];
+						$content[$key]['PicUrl'] = $value['good_img'];
+						$content[$key]['Url'] = $value['good_buy_url'];
+					}
+					$title = '最新优惠';
+       				$tpl = $this->transmitNews($postObj,$list,$title);
                 	$resultStr = $tpl;
                 	echo $resultStr;
                 }
 
 				if(!empty( $keyword ))
                 {
-              		$msgType = "text";
-                	$contentStr = "Welcome to wechat world!";
-                	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+              		$content = array();
+					$content[] = array("Title" =>"欢迎关注好买助手","Description" =>"", "PicUrl" =>"", "Url" =>"");
+					$content[] = array("Title" =>"【1】新闻 天气 空气 股票 彩票 星座\n".
+					    "【2】快递 人品 算命 解梦 附近 苹果\n".
+					    "【3】公交 火车 汽车 航班 路况 违章\n".
+					    "【4】翻译 百科 双语 听力 成语 历史\n".
+					    "【5】团购 充值 菜谱 贺卡 景点 冬吴\n".
+					    "【6】情侣相 夫妻相 亲子相 女人味\n".
+					    "【7】相册 游戏 笑话 答题 点歌 树洞\n".
+					    "【8】微社区 四六级 华强北 世界杯\n\n".
+					    "更多精彩，即将亮相，敬请期待！";, "Description" =>"", "PicUrl" =>"", "Url" =>"");
+					$content[] = array("Title" =>"回复对应数字查看使用方法\n发送 0 返回本菜单", "Description" =>"", "PicUrl" =>"", "Url" =>"");
+                	$tpl = $this->transmitNews($postObj,$list,$content);
+                	$resultStr = $tpl;
                 	echo $resultStr;
                 }
 
@@ -79,7 +98,7 @@ class IndexController extends Controller
     }
 
 
-    private function transmitNews($object, $newsArray)
+    private function transmitNews($object, $newsArray,$title)
     {
         if(!is_array($newsArray)){
             return;
@@ -93,7 +112,7 @@ class IndexController extends Controller
 ";
         $item_str = "";
         foreach ($newsArray as $item){
-            $item_str .= sprintf($itemTpl, $item['good_name'], $item['good_intr1'], $item['good_img'], $item['good_buy_url']);
+            $item_str .= sprintf($itemTpl, $item['Title'], $item['Description'], $item['PicUrl'], $item['Url']);
         }
         $xmlTpl = "<xml>
 <ToUserName><![CDATA[%s]]></ToUserName>
@@ -103,7 +122,7 @@ class IndexController extends Controller
 <ArticleCount>%s</ArticleCount>
 <Articles>
 <item>
-    <Title><![CDATA[最新优惠]]></Title>
+    <Title><![CDATA[$title]]></Title>
 </item>
 $item_str</Articles>
 </xml>";
