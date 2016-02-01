@@ -58,7 +58,7 @@ class IndexController extends Controller
 						$content[$key]['Url'] = $value['good_buy_url'];
 					}
 					$title = '最新优惠';
-       				$tpl = $this->transmitNews($postObj,$list,$title);
+       				$tpl = $this->transmitNews($postObj,$content,$title);
                 	$resultStr = $tpl;
                 	echo $resultStr;
                 }
@@ -77,7 +77,7 @@ class IndexController extends Controller
 					    "【8】微社区 四六级 华强北 世界杯\n\n".
 					    "更多精彩，即将亮相，敬请期待！";, "Description" =>"", "PicUrl" =>"", "Url" =>"");
 					$content[] = array("Title" =>"回复对应数字查看使用方法\n发送 0 返回本菜单", "Description" =>"", "PicUrl" =>"", "Url" =>"");
-                	$tpl = $this->transmitNews($postObj,$list,$content);
+                	$tpl = $this->transmitNews($postObj,$content,$title);
                 	$resultStr = $tpl;
                 	echo $resultStr;
                 }
