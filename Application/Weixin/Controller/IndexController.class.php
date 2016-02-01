@@ -28,7 +28,7 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-
+		
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -39,14 +39,7 @@ class IndexController extends Controller
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
-                $textTpl = "<xml>
-							<ToUserName><![CDATA[%s]]></ToUserName>
-							<FromUserName><![CDATA[%s]]></FromUserName>
-							<CreateTime>%s</CreateTime>
-							<MsgType><![CDATA[%s]]></MsgType>
-							<Content><![CDATA[%s]]></Content>
-							<FuncFlag>0</FuncFlag>
-							</xml>";
+               
 
 				$articleTpl = "<xml>
 							<ToUserName><![CDATA[toUser]]></ToUserName>
@@ -104,18 +97,18 @@ class IndexController extends Controller
 
     public function getNewTpl($list,$fromUsername,$toUsername){
     	$tpl_head = '<xml>
-					<ToUserName>'.$toUsername.'</ToUserName>
-					<FromUserName>'.$fromUsername.'</FromUserName>
-					<CreateTime>'.time().'</CreateTime>
-					<MsgType>new</MsgType>
-					<ArticleCount>'.count($list).'</ArticleCount>
+					<ToUserName><![CDATA['.$toUsername.']]></ToUserName>
+					<FromUserName><![CDATA['.$fromUsername.']]></FromUserName>
+					<CreateTime><![CDATA['.time().']]></CreateTime>
+					<MsgType><![CDATA[new]]></MsgType>
+					<ArticleCount><![CDATA['.count($list).']]></ArticleCount>
 					<Articles>';
 		foreach ($list as $key => $value) {
 			$tpl_content .='<item>
-							<Title>'.$value['good_name'].'</Title>
-							<Description>'.$value['good_intr1'].'</Description>
-							<PicUrl>'.$value['good_img'].'</PicUrl>
-							<Url>'.$value['good_buy_url'].'</Url>
+							<Title><![CDATA['.$value['good_name'].']]></Title>
+							<Description><![CDATA['.$value['good_intr1'].']]></Description>
+							<PicUrl><![CDATA['.$value['good_img'].']]></PicUrl>
+							<Url><![CDATA['.$value['good_buy_url'].']]></Url>
 							</item>';
 		}
 		$tpl_foot = '</Articles></xml>';
