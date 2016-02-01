@@ -64,7 +64,7 @@ class IndexController extends Controller
 
                 if ($keyword == 'cs') {
 		        	$msgType = "text";
-                	$contentStr = $postObj->FromUserName;
+                	$contentStr = 'as';
                 	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
                 }
