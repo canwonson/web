@@ -66,7 +66,7 @@ class IndexController extends Controller
 
                 if ($keyword == 'cs') {
 		        	$msgType = "text";
-                	$contentStr = $postObj->FromUserName;
+                	$contentStr = gettype($postObj->FromUserName);
                 	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
                 }
@@ -96,7 +96,7 @@ class IndexController extends Controller
         $WeixinAction = M('weixin_action');
         $action_list = $WeixinAction->getField('action',true);
         $keyword = trim($object->Content);
-        $userid = $object->FromUserName;
+        $userid = trim($object->FromUserName);
         if (in_array($keyword,$action_list)) {
         	$map['action'] = $keyword;
         	$action_level = $WeixinAction->where($map)->getField('action_level');
