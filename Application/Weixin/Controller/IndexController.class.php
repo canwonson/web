@@ -41,9 +41,9 @@ class IndexController extends Controller
                 $action_level = $this->actionLog($postObj);
                 if ($action_level) {
                 	$session_id = $this->getUserSeesion($fromUsername);
-	                /*if (!$session_id) {
+	                if (!$session_id) {
 	                	$session_id = $this->createUserSession($fromUsername,$keyword);
-	                }*/
+	                }
                 }
 
                 if ($action_level || $action_level ==1) {
@@ -136,8 +136,8 @@ class IndexController extends Controller
     		'parame' => $parame,
     		'time'	 => time()
     		);
-    	$session_id = $WeixinUserSession->add($session_id);
-    	return $session_id['id'];
+    	$session_id = $WeixinUserSession->add($session_info);
+    	//return $session_id['id'];
     }
 
     public function actionLog($object){
