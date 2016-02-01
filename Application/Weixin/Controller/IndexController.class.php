@@ -63,14 +63,6 @@ class IndexController extends Controller
 							</xml>";
 
                 if ($keyword == 'cs') {
-                	$WeixinUserAction = M('weixin_user_action');
-                	$action_info = array(
-		        	'userid' => $postObj->FromUserName,
-		        	'action' => $keyword,
-		        	'time'   => time(),
-		        	'action_level' => 1
-		        	);
-		        	$WeixinUserAction->add($action_info);
 		        	$msgType = "text";
                 	$contentStr = $postObj->FromUserName;
                 	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
