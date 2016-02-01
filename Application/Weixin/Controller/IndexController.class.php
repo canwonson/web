@@ -38,9 +38,9 @@ class IndexController extends Controller
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
-                $action_level = $this->actionLog($postObj);
+                $action_level = $this->actionLog($fromUsername,$keyword);
+                $session_id = $this->getUserSeesion($fromUsername);
                 if ($action_level == 1) {
-                	$session_id = $this->getUserSeesion($fromUsername);
 	                if (!$session_id) {
 						$this->createUserSession($fromUsername,$keyword);
 	                }else{
@@ -48,10 +48,14 @@ class IndexController extends Controller
 	                }
                 }
 
+                if ($action_level == 2 && $session_id) {
+                	$this->updateUserSession($session_id,$keyword,$action_level);
+                }
+
                 if ($action_level || $action_level ==1) {
                 	if( $keyword == 'zx')
 					{
-						$list = $this->getList();
+						$list = $this->getList($session_id);
 						$content = array();
 						foreach ($list as $key => $value) {
 							$content[$key]['Title'] = $value['good_name'];
@@ -143,6 +147,7 @@ class IndexController extends Controller
 
     public function updateUserSession($session_id,$keyword,$action_level){
     	$WeixinUserSession = M('weixin_user_session');
+    	$map = array('id'=>$session_id);
     	$session_info = $WeixinUserSession->where($map)->find();
     	if ($action_level == 1) {
     		$parame = array(
@@ -154,14 +159,42 @@ class IndexController extends Controller
     		$session_info['parame'] = $parame;
    			$session_id = $WeixinUserSession->save($session_info);
     	}
+
+    	if ($action_level == 2) {
+    		$parame = json_decode($session_info['parame'],true);
+    		$p = $parame['p'];
+    		switch ($keyword) {
+    			case 'p':
+    				$p = $p==1 ? 1 : $p-1;
+    				break;
+    			case 'n':
+    				$p = $p+1;
+    				break;
+    			case 'e':
+    				$WeixinUserSession->where(array('id'=>$session_info['id']))->delete();
+    				break;
+    			default:
+    				# code...
+    				break;
+    		}
+    		if ($p) {
+    			$parame = array(
+		    		'p' => $p
+		    		);
+    			$parame = json_encode($parame);
+    			$session_info['parame'] = $parame;
+    			$session_info['time'] = time();
+    			$session_id = $WeixinUserSession->save($session_info);
+    		}
+    	}
     }
 
-    public function actionLog($object){
+    public function actionLog($fromUsername,$keyword){
         $WeixinUserAction = M('weixin_user_action');
         $WeixinAction = M('weixin_action');
         $action_list = $WeixinAction->getField('action',true);
-        $keyword = trim($object->Content);
-        $userid = trim($object->FromUserName);
+        $keyword = $keyword;
+        $userid = $fromUsername;
         if (in_array($keyword,$action_list)) {
         	$map['action'] = $keyword;
         	$action_level = $WeixinAction->where($map)->getField('action_level');
@@ -176,11 +209,16 @@ class IndexController extends Controller
         return $action_level;
     }
 
-    public function getList($type='newest',$source=0){
+    public function getList($session_id){
     	$Good = M('good');
+    	$WeixinUserSession = M('weixin_user_session');
+    	$map = array('id'=>$session_id);
+    	$session_info = $WeixinUserSession->where($map)->find();
+    	$parame = json_decode($session_info['parame'],true);
+    	$p = $parame['p'];
         if ($type=='newest') {
         	$source && $where['source'] = $source;
-        	$list = $Good->where($where)->limit(0,9)->select();
+        	$list = $Good->where($where)->limit($p,8)->select();
         }
         return $list;
     }
