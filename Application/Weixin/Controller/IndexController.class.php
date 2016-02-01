@@ -46,34 +46,12 @@ class IndexController extends Controller
 							<Content><![CDATA[%s]]></Content>
 							<FuncFlag>0</FuncFlag>
 							</xml>";
-				$newTpl = "<xml>
-<ToUserName><![CDATA[%s]]]></ToUserName>
-<FromUserName><![CDATA[%s]]]></FromUserName>
-<CreateTime><![CDATA[%s]]]></CreateTime>
-<MsgType><![CDATA[news]]></MsgType>
-<ArticleCount>2</ArticleCount>
-<Articles>
-<item>
-<Title><![CDATA[title1]]></Title>
-<Description><![CDATA[description1]]></Description>
-</item>
-<item>
-<Title><![CDATA[title]]></Title>
-<Description><![CDATA[description]]></Description>
-</item>
-</Articles>
-</xml> ";
 
 				if( $keyword == 'zx')
 				{
 					$list = $this->getList();
-       				$tpl = $this->transmitNews($object, $list);
+       				$tpl = $this->transmitNews($postObj, $list);
                 	$resultStr = $tpl;
-                	echo $resultStr;
-                }
-                if( $keyword == 'new')
-				{
-					$resultStr = sprintf($newTpl, $fromUsername, $toUsername, $time);
                 	echo $resultStr;
                 }
 
