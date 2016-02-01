@@ -121,7 +121,7 @@ class IndexController extends Controller
     	//获取用户回话id
     	$WeixinUserSession = M('weixin_user_session');
     	$map['userid'] = $fromUsername;
-    	$session_id = $WeixinUserSession->where($map)->field('max("time")')->find('id');
+    	$session_id = $WeixinUserSession->where($map)->field('max(time),id')->find();
     	return $session_id['id'];
     }
 
