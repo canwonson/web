@@ -28,7 +28,6 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -86,11 +85,11 @@ class IndexController extends Controller
         }
     }
 
-    public function actionLog($fromUsername='',$keyword=''){
+    public function actionLog($fromUsername,$keyword){
         $WeixinUserAction = M('weixin_user_action');
         $WeixinAction = M('weixin_action');
         $action_list = $WeixinAction->getField('action',true);
-        if ($fromUsername && in_array($keyword,$action_list)) {
+        if (in_array($keyword,$action_list)) {
         	$map['action']=$keyword;
         	$action_level = $WeixinAction->where($map)->getField('action_level');
         	$action_info = array(
@@ -99,8 +98,8 @@ class IndexController extends Controller
         	'time'   => time(),
         	'action_level' => $action_level
         	);
+        	$WeixinUserAction ->add($action_info);
         }
-        $WeixinUserAction ->add($data);
         return $action_level;
     }
 
