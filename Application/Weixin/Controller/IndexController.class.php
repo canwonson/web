@@ -216,10 +216,8 @@ class IndexController extends Controller
     	$session_info = $WeixinUserSession->where($map)->find();
     	$parame = json_decode($session_info['parame'],true);
     	$p = $parame['p'];
-        if ($type=='newest') {
-        	$source && $where['source'] = $source;
-        	$list = $Good->where($where)->limit($p,8)->select();
-        }
+    	$source && $where['source'] = $source;
+    	$list = $Good->where($where)->limit($p,8)->select();
         return $list;
     }
 
