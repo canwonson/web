@@ -28,7 +28,7 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-		
+
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -100,7 +100,7 @@ class IndexController extends Controller
 					<ToUserName><![CDATA['.$toUsername.']]></ToUserName>
 					<FromUserName><![CDATA['.$fromUsername.']]></FromUserName>
 					<CreateTime><![CDATA['.time().']]></CreateTime>
-					<MsgType><![CDATA[new]]></MsgType>
+					<MsgType><![CDATA[news]]></MsgType>
 					<ArticleCount><![CDATA['.count($list).']]></ArticleCount>
 					<Articles>';
 		foreach ($list as $key => $value) {
