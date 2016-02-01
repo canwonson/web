@@ -28,10 +28,7 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-		$list = $this->getList();
-       				$tpl = $this->getNewTpl($list,$fromUsername,$toUsername);
-                	$resultStr = $tpl;
-                	dump($tpl);
+
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -77,7 +74,7 @@ class IndexController extends Controller
     	$Good = M('good');
         if ($type=='newest') {
         	$source && $where['source'] = $source;
-        	$list = $Good->where($where)->limit(0,10)->select();
+        	$list = $Good->where($where)->limit(0,5)->select();
         }
         return $list;
     }
