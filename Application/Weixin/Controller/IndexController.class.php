@@ -28,6 +28,10 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+		$list = $this->getList();
+       				$tpl = $this->transmitNews($object, $list);
+                	$resultStr = $tpl;
+                	echo $tpl;
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -113,6 +117,9 @@ class IndexController extends Controller
 ";
         $item_str = "";
         foreach ($newsArray as $item){
+        	if (!$item['good_img']) {
+        		$item['good_img']='http://y.zdmimg.com/201512/03/566055fe7d0ee5899.png_a100.jpg';
+        	}
             $item_str .= sprintf($itemTpl, $item['good_name'], $item['good_intr1'], $item['good_img'], $item['good_buy_url']);
         }
         $xmlTpl = "<xml>
