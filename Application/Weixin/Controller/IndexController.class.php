@@ -145,14 +145,15 @@ class IndexController extends Controller
     	$WeixinUserSession = M('weixin_user_session');
     	$session_info = $WeixinUserSession->where($map)->select();
     	if ($action_level == 1) {
-    		$parame = array(
+    		
+    	}
+    	$parame = array(
 	    		'p' => 1
 	    		);
     		$parame = json_encode($parame);
     		$session_info['time'] = time();
     		$session_info['keyword'] = $keyword;
     		$session_info['parame'] = $parame;
-    	}
     	$session_id = $WeixinUserSession->save($session_info);
     }
 
