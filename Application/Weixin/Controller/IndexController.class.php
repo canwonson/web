@@ -143,18 +143,17 @@ class IndexController extends Controller
 
     public function updateUserSession($session_id,$keyword,$action_level){
     	$WeixinUserSession = M('weixin_user_session');
-    	$session_info = $WeixinUserSession->where($map)->select();
+    	$session_info = $WeixinUserSession->where($map)->find();
     	if ($action_level == 1) {
-    		$this->createUserSession('cs',$keyword);
-    	}
-    	$parame = array(
+    		$parame = array(
 	    		'p' => 1
 	    		);
     		$parame = json_encode($parame);
     		$session_info['time'] = time();
-    		$session_info['keyword'] = $keyword;
+    		$session_info['action'] = $keyword;
     		$session_info['parame'] = $parame;
-    	$session_id = $WeixinUserSession->save($session_info);
+   			$session_id = $WeixinUserSession->save($session_info);
+    	}
     }
 
     public function actionLog($object){
