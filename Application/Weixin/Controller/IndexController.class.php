@@ -34,11 +34,9 @@ class IndexController extends Controller
                    the best way is to check the validity of xml by yourself */
                 libxml_disable_entity_loader(true);
               	$postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
-                $fromUsername = $postObj->FromUserName;
-                $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
-                $this->actionLog($fromUsername,$keyword);
+                $this->actionLog($postObj);
 
 				if( $keyword == 'zx' || $keyword == 1)
 				{
@@ -76,15 +74,17 @@ class IndexController extends Controller
         }
     }
 
-    public function actionLog($fromUsername,$keyword){
+    public function actionLog($object){
         $WeixinUserAction = M('weixin_user_action');
         $WeixinAction = M('weixin_action');
         $action_list = $WeixinAction->getField('action',true);
+        $keyword = trim($object->Content);
+        $userid = $object->FromUserName;
         if (in_array($keyword,$action_list)) {
         	$map['action'] = $keyword;
         	$action_level = $WeixinAction->where($map)->getField('action_level');
         	$action_info = array(
-        	'userid' => 'me',
+        	'userid' => $userid,
         	'action' => $keyword,
         	'time'   => time(),
         	'action_level' => $action_level
