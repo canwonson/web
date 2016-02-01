@@ -34,6 +34,8 @@ class IndexController extends Controller
                    the best way is to check the validity of xml by yourself */
                 libxml_disable_entity_loader(true);
               	$postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+              	$fromUsername = $postObj->FromUserName;
+                $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
                 $this->actionLog($postObj);
@@ -53,8 +55,7 @@ class IndexController extends Controller
                 	$resultStr = $tpl;
                 	echo $resultStr;
                 }
-
-                 $textTpl = "<xml>
+                $textTpl = "<xml>
 							<ToUserName><![CDATA[%s]]></ToUserName>
 							<FromUserName><![CDATA[%s]]></FromUserName>
 							<CreateTime>%s</CreateTime>
@@ -62,10 +63,10 @@ class IndexController extends Controller
 							<Content><![CDATA[%s]]></Content>
 							<FuncFlag>0</FuncFlag>
 							</xml>";
-				if($keyword == 'cs')
-                {
-              		$msgType = "text";
-                	$contentStr = "Welcome to wechat world!";
+
+                if ($keyword == 'cs') {
+		        	$msgType = "text";
+                	$contentStr = $postObj->FromUserName;
                 	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
                 	echo $resultStr;
                 }
