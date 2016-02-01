@@ -28,7 +28,10 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-
+		$list = $this->getList();
+       				$tpl = $this->getNewTpl($list,$fromUsername,$toUsername);
+                	$resultStr = $tpl;
+                	dump($tpl);
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -39,29 +42,15 @@ class IndexController extends Controller
                 $toUsername = $postObj->ToUserName;
                 $keyword = trim($postObj->Content);
                 $time = time();
-               
+                $textTpl = "<xml>
+							<ToUserName><![CDATA[%s]]></ToUserName>
+							<FromUserName><![CDATA[%s]]></FromUserName>
+							<CreateTime>%s</CreateTime>
+							<MsgType><![CDATA[%s]]></MsgType>
+							<Content><![CDATA[%s]]></Content>
+							<FuncFlag>0</FuncFlag>
+							</xml>";
 
-				$articleTpl = "<xml>
-							<ToUserName><![CDATA[toUser]]></ToUserName>
-							<FromUserName><![CDATA[fromUser]]></FromUserName>
-							<CreateTime>12345678</CreateTime>
-							<MsgType><![CDATA[news]]></MsgType>
-							<ArticleCount>2</ArticleCount>
-							<Articles>
-							<item>
-							<Title><![CDATA[title1]]></Title>
-							<Description><![CDATA[description1]]></Description>
-							<PicUrl><![CDATA[picurl]]></PicUrl>
-							<Url><![CDATA[url]]></Url>
-							</item>
-							<item>
-							<Title><![CDATA[title]]></Title>
-							<Description><![CDATA[description]]></Description>
-							<PicUrl><![CDATA[picurl]]></PicUrl>
-							<Url><![CDATA[url]]></Url>
-							</item>
-							</Articles>
-							</xml> ";
 				if( $keyword == '最新')
 				{
                 	$list = $this->getList();
@@ -69,8 +58,6 @@ class IndexController extends Controller
                 	$resultStr = $tpl;
                 	echo $resultStr;
                 }
-
-
 
 				if(!empty( $keyword ))
                 {
