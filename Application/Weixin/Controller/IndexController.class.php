@@ -54,6 +54,17 @@ class IndexController extends Controller
                 	echo $resultStr;
                 }
 
+                if ($keyword == 'cs') {
+                	$WeixinUserAction = M('weixin_user_action');
+                	$action_info = array(
+		        	'userid' => 'ceshi',
+		        	'action' => $keyword,
+		        	'time'   => time(),
+		        	'action_level' => 1
+		        	);
+		        	$WeixinUserAction->add($action_info);
+                }
+
 				if(!empty( $keyword ))
                 {
                 	$title = '欢迎关注好买助手';
