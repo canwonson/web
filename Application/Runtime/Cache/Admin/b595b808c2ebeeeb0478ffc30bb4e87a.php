@@ -7,18 +7,18 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
-    <link rel="stylesheet" href="/web/Public/common/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__ROOT__/Public/common/bootstrap/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="/web/Public/admin/css/admin.css">
+    <link rel="stylesheet" href="__ROOT__/Public/admin/css/admin.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="/web/Public/admin/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="__ROOT__/Public/admin/css/skins/_all-skins.min.css">
     <!-- bootstrap wysihtml5 - text editor -->
-    <link rel="stylesheet" href="/web/Public/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <link rel="stylesheet" href="__ROOT__/Public/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,7 +59,7 @@
                                 <li><!-- start message -->
                                     <a href="#">
                                         <div class="pull-left">
-                                            <img src="/web/Public/admin/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                            <img src="__ROOT__/Public/admin/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                                         </div>
                                         <h4>
                                             Support Team
@@ -76,13 +76,13 @@
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <img src="/web/Public/admin/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                        <img src="__ROOT__/Public/admin/img/user2-160x160.jpg" class="user-image" alt="User Image">
                         <span class="hidden-xs">Alexander Pierce</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
-                            <img src="/web/Public/admin/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                            <img src="__ROOT__/Public/admin/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                             <p>
                                 Alexander Pierce - Web Developer
@@ -126,7 +126,7 @@
 		<!-- Sidebar user panel -->
 		<div class="user-panel">
 			<div class="pull-left image">
-	          	<img src="/web/Public/admin/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+	          	<img src="__ROOT__/Public/admin/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 	        </div>
 	        <div class="pull-left info">
 	          	<p>Alexander Pierce</p>
@@ -215,7 +215,7 @@
 </div>
 <!-- ./wrapper -->
 <!-- jQuery 2.1.4 -->
-<script src="/web/Public/admin/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+<script src="__ROOT__/Public/admin/plugins/jQuery/jQuery-2.1.4.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -223,10 +223,10 @@
     $.widget.bridge('uibutton', $.ui.button);
 </script>
 <!-- Bootstrap 3.3.5 -->
-<script src="/web/Public/common/bootstrap/js/bootstrap.min.js"></script>
+<script src="__ROOT__/Public/common/bootstrap/js/bootstrap.min.js"></script>
 <!-- Bootstrap WYSIHTML5 -->
-<script src="/web/Public/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
-<script src="/web/Public/admin/js/app.min.js"></script>
+<script src="__ROOT__/Public/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="__ROOT__/Public/admin/js/app.min.js"></script>
 
 </body>
 </html>

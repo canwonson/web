@@ -69,36 +69,15 @@ class IndexController extends Controller
 							</item>
 							</Articles>
 							</xml> ";
-
-				if( $keyword == 'hello')
+				if( $keyword == '最新')
 				{
-                	$msgType = "text";
-                	$contentStr = "Welcome to wechat world!";
-                	$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
+                	$list = $this->getList();
+       				$tpl = $this->getNewTpl($list,$fromUsername,$toUsername);
+                	$resultStr = $tpl;
                 	echo $resultStr;
                 }
 
-				/*if( $keyword == 'pic')
-				{
-                	$msgType = "image";
-                	$type = 'image';
-                	$access_token='preMU5WMNKnCJdwc8lA2cfZhNB-Kr_WcOu64XPA-hmt_28zgFJeUNMAhw3dWyf7Fx_hJhe4Iie9td5DMLD0gGRtCQjNyOxyMv0S39CG7UFcDEAgAGAXYU'
-                	$MediaURL = "http://www.hostloc.com/uc_server/data/avatar/000/00/96/23_avatar_middle.jpg";
-                	$api = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=".$access_token."&type=".$type;
-                	$filedata = array('media' =>"@".$MediaURL);
-                	$result = https_request($url,$filedata);
-                	$info = json_decode($result);
-                	$resultStr = sprintf($tpl, $fromUsername, $toUsername, $time, $msgType, $info['media_id']);
-                	echo $resultStr;
-                }*/
 
-                if( $keyword == 'article')
-				{
-                	$msgType = "news";
-                	$picUrl = "http://www.hostloc.com/uc_server/data/avatar/000/00/96/23_avatar_middle.jpg";
-                	$resultStr = sprintf($tpl, $fromUsername, $toUsername, $time, $msgType, $contentStr);
-                	echo $resultStr;
-                }
 
 				if(!empty( $keyword ))
                 {
@@ -112,6 +91,36 @@ class IndexController extends Controller
         	echo "";
         	exit;
         }
+    }
+
+    public function getList($type='newest',$source=0){
+    	$Good = M('good');
+        if ($type=='newest') {
+        	$source && $where['source'] = $source;
+        	$list = $Good->where($where)->limit(0,10)->select();
+        }
+        return $list;
+    }
+
+    public function getNewTpl($list,$fromUsername,$toUsername){
+    	$tpl_head = '<xml>
+					<ToUserName>'.$toUsername.'</ToUserName>
+					<FromUserName>'.$fromUsername.'</FromUserName>
+					<CreateTime>'.time().'</CreateTime>
+					<MsgType>new</MsgType>
+					<ArticleCount>'.count($list).'</ArticleCount>
+					<Articles>';
+		foreach ($list as $key => $value) {
+			$tpl_content .='<item>
+							<Title>'.$value['good_name'].'</Title>
+							<Description>'.$value['good_intr1'].'</Description>
+							<PicUrl>'.$value['good_img'].'</PicUrl>
+							<Url>'.$value['good_buy_url'].'</Url>
+							</item>';
+		}
+		$tpl_foot = '</Articles></xml>';
+		$tpl = $tpl_head.$tpl_content.$tpl_foot;
+		return $tpl;
     }
 
 }
