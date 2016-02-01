@@ -28,7 +28,6 @@ class IndexController extends Controller
     {
 		//get post data, May be due to the different environments
 		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
-
       	//extract post data
 		if (!empty($postStr)){
                 /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
@@ -50,8 +49,8 @@ class IndexController extends Controller
 
 				if( $keyword == '最新')
 				{
-                	$list = $this->getList();
-       				$tpl = $this->getNewTpl($list,$fromUsername,$toUsername);
+					$list = $this->getList();
+       				$tpl = $this->transmitNews($object, $list);
                 	$resultStr = $tpl;
                 	echo $resultStr;
                 }
@@ -98,6 +97,36 @@ class IndexController extends Controller
 		$tpl_foot = '</Articles></xml>';
 		$tpl = $tpl_head.$tpl_content.$tpl_foot;
 		return $tpl;
+    }
+
+    private function transmitNews($object, $newsArray)
+    {
+        if(!is_array($newsArray)){
+            return;
+        }
+        $itemTpl = "    <item>
+        <Title><![CDATA[%s]]></Title>
+        <Description><![CDATA[%s]]></Description>
+        <PicUrl><![CDATA[%s]]></PicUrl>
+        <Url><![CDATA[%s]]></Url>
+    </item>
+";
+        $item_str = "";
+        foreach ($newsArray as $item){
+            $item_str .= sprintf($itemTpl, $item['good_name'], $item['good_intr1'], $item['good_img'], $item['good_buy_url']);
+        }
+        $xmlTpl = "<xml>
+<ToUserName><![CDATA[%s]]></ToUserName>
+<FromUserName><![CDATA[%s]]></FromUserName>
+<CreateTime>%s</CreateTime>
+<MsgType><![CDATA[news]]></MsgType>
+<ArticleCount>%s</ArticleCount>
+<Articles>
+$item_str</Articles>
+</xml>";
+
+        $result = sprintf($xmlTpl, $object->FromUserName, $object->ToUserName, time(), count($newsArray));
+        return $result;
     }
 
 }
