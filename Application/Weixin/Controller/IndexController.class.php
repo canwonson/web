@@ -73,7 +73,7 @@ class IndexController extends Controller
     	$Good = M('good');
         if ($type=='newest') {
         	$source && $where['source'] = $source;
-        	$list = $Good->where($where)->limit(0,10)->select();
+        	$list = $Good->where($where)->limit(0,9)->select();
         }
         return $list;
     }
@@ -102,6 +102,9 @@ class IndexController extends Controller
 <MsgType><![CDATA[news]]></MsgType>
 <ArticleCount>%s</ArticleCount>
 <Articles>
+<item>
+    <Title><![CDATA[最新优惠]]></Title>
+</item>
 $item_str</Articles>
 </xml>";
 
