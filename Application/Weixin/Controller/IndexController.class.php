@@ -145,7 +145,7 @@ class IndexController extends Controller
     	$WeixinUserSession = M('weixin_user_session');
     	$session_info = $WeixinUserSession->where($map)->select();
     	if ($action_level == 1) {
-    		
+    		$this->createUserSession('cs',$keyword)
     	}
     	$parame = array(
 	    		'p' => 1
