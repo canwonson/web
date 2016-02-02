@@ -71,10 +71,12 @@ class ImgController extends Controller
 		$p = I('post.p',1);
 		$size = I('post.size',5);
 		$big_size = I('post.big_size',3);
+		$blog = I('post.blog');
 		$start = ($p - 1)*$num;
 		$Img = M('img');
-		$total = $Img->count();
-		$result = $Img->limit($start,$num)->select();
+		$blog && $where['blog']=$blog;
+		$total = $Img->where($where)->count();
+		$result = $Img->where($where)->limit($start,$num)->select();
 		foreach ($result as $key => &$value) {
 			$photos = json_decode($value['photos'],true);
 			$list=array();
@@ -128,6 +130,7 @@ class ImgController extends Controller
 			$data['slug'] = $value['slug'];
 			$data['time'] = $value['timestamp'];
 			$data['summary'] = $value['summary'];
+			$data['blog'] = $blog;
 			$data['photos'] = json_encode($value['photos']);
 			$Img = M('img');
 			$Img ->add($data);
