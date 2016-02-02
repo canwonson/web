@@ -94,7 +94,7 @@ class ImgController extends Controller
 		$this->assign('big_size',$big_size);
 		$this->assign('p',$p);
 		$this->assign('num',$num);
-		$this->display();
+		$this->display('index');
 	}
 
 	public function store(){
