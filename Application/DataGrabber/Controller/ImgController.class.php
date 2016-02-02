@@ -6,10 +6,10 @@ use QL\QueryList;
 class ImgController extends Controller
 {
 	public function index(){
-		$num = I('get.n',10);
+		$num = I('get.num',10);
 		$p = I('get.p',1);
-		$blog = I('get.b');
-		$size = I('get.s');
+		$blog = I('get.blog');
+		$size = I('get.size');
 		$start = ($p - 1)*$num;
 		$url = 'http://'.$blog.'.tumblr.com/api/read?type=photo&num='.$num.'&start='.$start;
 		dump($url);
@@ -22,9 +22,16 @@ class ImgController extends Controller
 		$data = QueryList::Query($url,$rules)->data;
 		foreach ($data as $key => $value) {
 			$img_size = 'img_'.$size;
-			echo '<img src="'.$value[$img_size].'">';
-			echo '<br/>';
+			$list[] = $value[$img_size];
 		}
+		$img_size = 'img_'.$size;
+		$this->assign('list',$list);
+		$this->assign('blog',$blog);
+		$this->assign('size',$size);
+		$p = $p+1;
+		$this->assign('p',$p);
+		$this->assign('num',$num);
+		$this->display();
 	}
 }
 

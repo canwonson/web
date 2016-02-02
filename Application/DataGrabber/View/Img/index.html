@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <foreach name="list" item="item">
+		<img src="<{$item}>">
+		<br/>
+    </foreach>
+    <form action="__CONTROLLER__">
+    	b<input type="text" name="blog" value="<{$blog|default=''}>">
+    	s<input type="text" name="size" value="<{$size|default=''}>">
+    	<br/>
+    	<br/>
+    	n<input type="text" name="num" value="<{$num|default=''}>">
+    	p<input type="text" name="p" value="<{$p|default=''}>">
+    	<input type="submit" value="submit">
+    </form>
+</body>
+</html>
