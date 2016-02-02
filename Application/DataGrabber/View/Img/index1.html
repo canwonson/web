@@ -21,12 +21,12 @@
 </head>
 <body>
     <foreach name="list" item="item">
-	   	<!-- <{$item['slug']}>
-	   	<br/>
-	   	<{$item['time']|date="Y-m-d",###}>
-	   	<br/>
-	   	<{$item['summary']}>
-	   	<br/> -->
+	   	<{$item['slug']}>
+        <br/>
+        <{$item['time']|date="Y-m-d",###}>
+        <br/>
+        <{$item['summary']}>
+        <br/>
 	   	<foreach name="item['photos']" item="img">
 	   		<a href="<{$img['img'][$big_size]}>"><img src="<{$img['img'][$size]}>"></a>
 	   	</foreach>

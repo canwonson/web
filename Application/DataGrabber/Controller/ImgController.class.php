@@ -126,6 +126,9 @@ class ImgController extends Controller
 		$result = $Curl->exec();
 		$result = json_decode($result,true);
 		$total = $result['response']['total_posts'];
+		if(!$result['response']['posts']){
+			exit;
+		}
 		foreach ($result['response']['posts'] as $key => $value) {
 			$data['slug'] = $value['slug'];
 			$data['time'] = $value['timestamp'];
