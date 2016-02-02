@@ -6,11 +6,11 @@ use QL\QueryList;
 class ImgController extends Controller
 {
 	public function index(){
-		$num = 10;
+		$num = I('get.n',10);
 		$p = I('get.p',1);
-		$start = ($p - 1)*$num;
 		$blog = I('get.b');
 		$size = I('get.s');
+		$start = ($p - 1)*$num;
 		$url = 'http://'.$blog.'.tumblr.com/api/read?type=photo&num='.$num.'&start='.$start;
 		dump($url);
 		$rules = array(
