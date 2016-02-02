@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+<script>
+	$(function () {
+		$('a[name="pre"]').click(function(){
+			var p = $('input[name="p"]').val();
+			$('input[name="p"]').val(p-1);
+			$('#form').submit();
+		});
+		$('a[name="next"]').click(function(){
+			var p = $('input[name="p"]').val();
+			$('input[name="p"]').val(parseInt(p)+1);
+			$('#form').submit();
+		});
+ 	});
+
+</script>
+</head>
+<body>
+    <foreach name="list" item="item">
+	   	<!-- <{$item['slug']}>
+	   	<br/>
+	   	<{$item['time']|date="Y-m-d",###}>
+	   	<br/>
+	   	<{$item['summary']}>
+	   	<br/> -->
+	   	<foreach name="item['photos']" item="img">
+	   		<a href="<{$img['img'][$big_size]}>"><img src="<{$img['img'][$size]}>"></a>
+	   	</foreach>
+	   	<hr/>
+   	</foreach>
+   	<!-- <foreach name="list" item="item">
+   			<a href="<{$item[$big_size]}>"><img src="<{$item[$size]}>"></a>
+   	</foreach> -->
+    <form action="__CONTROLLER__/index1" method="post" id="form">
+    	b<input type="text" name="blog" value="<{$blog|default=''}>">
+    	s<input type="text" name="size" value="<{$size|default=''}>">
+    	bs<input type="text" name="big_size" value="<{$big_size|default=''}>">
+    	<br/>
+    	<br/>
+    	n<input type="text" name="num" value="<{$num|default=''}>">
+    	p<input type="text" name="p" value="<{$p|default=''}>">
+    	<br/>
+    	<br/>
+    	t:<{$total}> / tp:<{$total_p}>
+    	<input type="submit" value="submit">
+    	<br/>
+    	<br/>
+    </form>
+    <a href="javascript:;" name='pre'>pre</a>
+    -----
+    <a href="javascript:;" name='next'>next</a>
+    <br/>
+    <br/>
+</body>
+
+</html>

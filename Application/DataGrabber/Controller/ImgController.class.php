@@ -94,12 +94,13 @@ class ImgController extends Controller
 		$this->assign('big_size',$big_size);
 		$this->assign('p',$p);
 		$this->assign('num',$num);
-		$this->display('index');
+		$this->display();
 	}
 
 	public function store(){
 		$blog = I('get.b','wordsnquotes');
 		$ImgPage = M('img_page');
+		$s = I('get.s');
 		$p = $ImgPage->where(array('name'=>$blog))->max('page');
 		if (!$p) {
 			$page_info['name'] = $blog;
@@ -112,6 +113,9 @@ class ImgController extends Controller
 			$ImgPage->where(array('name'=>$blog))->save($page_info);
 		}
 		$p = $p ? $p+1 : 1;
+		if ($s) {
+			$p = $s+$p;
+		}
 		$start = ($p - 1)*20;
 		$api = 'fuiKNFp9vQFvjLNvx4sUwti4Yb5yGutBN4Xh10LXZhhRKjWlV4';
 		$url = 'http://api.tumblr.com/v2/blog/'.$blog.'.tumblr.com/posts/photo?offset='.$start.'&api_key='.$api.'&limit=20';
