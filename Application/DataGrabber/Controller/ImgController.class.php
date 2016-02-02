@@ -5,12 +5,12 @@ use QL\QueryList;
 
 class ImgController extends Controller
 {
-	public function index(){
+	/*public function index(){
 		$num = I('post.num',5);
 		$p = I('post.p',1);
 		$blog = I('post.blog');
 		$size = I('post.size',5);
-		$big_size = I('post.big_size',3);
+		$big_size = I('post.big_size',0);
 		$start = ($p - 1)*$num;
 		$url = 'http://'.$blog.'.tumblr.com/api/read?type=photo&num='.$num.'&start='.$start;
 		$rules = array(
@@ -29,9 +29,9 @@ class ImgController extends Controller
 		$this->assign('p',$p);
 		$this->assign('num',$num);
 		$this->display();
-	}
+	}*/
 
-	/*public function index(){
+	public function index(){
 		$num = I('post.num',20);
 		$p = I('post.p',1);
 		$blog = I('post.blog');
@@ -44,7 +44,6 @@ class ImgController extends Controller
 		$Curl->url = $url;
 		$result = $Curl->exec();
 		$result = json_decode($result,true);
-
 		$total = $result['response']['total_posts'];
 		foreach ($result['response']['posts'] as $key => $value) {
 			$list[$key]['slug'] = $value['slug'];
@@ -65,7 +64,71 @@ class ImgController extends Controller
 		$this->assign('p',$p);
 		$this->assign('num',$num);
 		$this->display();
-	}*/
+	}
+
+	public function index1(){
+		$num = I('post.num',20);
+		$p = I('post.p',1);
+		$size = I('post.size',5);
+		$big_size = I('post.big_size',3);
+		$start = ($p - 1)*$num;
+		$Img = M('img');
+		$total = $Img->count();
+		$result = $Img->limit($start,$num)->select();
+		foreach ($result as $key => &$value) {
+			$photos = json_decode($value['photos'],true);
+			$list=array();
+			foreach ($photos as $k => $photo) {
+				foreach ($photo["alt_sizes"] as $kk => $img) {
+					$list[$k]['img'][$kk] = $img['url'];
+				}
+			}
+			unset($value['photos']);
+			$value['photos']=$list;
+		}
+		$this->assign('list',$result);
+		$this->assign('blog',$blog);
+		$this->assign('size',$size);
+		$this->assign('total_p',ceil($total / $num));
+		$this->assign('total',$total);
+		$this->assign('big_size',$big_size);
+		$this->assign('p',$p);
+		$this->assign('num',$num);
+		$this->display();
+	}
+
+	public function store(){
+		$blog = I('get.b','wordsnquotes');
+		$ImgPage = M('img_page');
+		$p = $ImgPage->where(array('name'=>$blog))->max('page');
+		if (!$p) {
+			$page_info['name'] = $blog;
+			$page_info['page'] = 1;
+			$page_info['time'] = time();
+			$ImgPage->add($page_info);
+		}else{
+			$page_info['page'] = $p+1;
+			$page_info['time'] = time();
+			$ImgPage->where(array('name'=>$blog))->save($page_info);
+		}
+		$p = $p ? $p+1 : 1;
+		$start = ($p - 1)*20;
+		$api = 'fuiKNFp9vQFvjLNvx4sUwti4Yb5yGutBN4Xh10LXZhhRKjWlV4';
+		$url = 'http://api.tumblr.com/v2/blog/'.$blog.'.tumblr.com/posts/photo?offset='.$start.'&api_key='.$api.'&limit=20';
+		$Curl = new \Lib\Net\Curl();
+		$Curl->url = $url;
+		$result = $Curl->exec();
+		$result = json_decode($result,true);
+		$total = $result['response']['total_posts'];
+		foreach ($result['response']['posts'] as $key => $value) {
+			$data['slug'] = $value['slug'];
+			$data['time'] = $value['timestamp'];
+			$data['summary'] = $value['summary'];
+			$data['photos'] = json_encode($value['photos']);
+			$Img = M('img');
+			$Img ->add($data);
+		}
+	}
 }
 
 ?>

@@ -20,22 +20,21 @@
 </script>
 </head>
 <body>
-   <!--  <foreach name="list" item="item">
-   	<{$item['slug']}>
-   	<br/>
-   	<{$item['time']|date="Y-m-d",###}>
-   	<br/>
-   	<{$item['summary']}>
-   	<br/>
-   	<foreach name="item['photos']" item="img">
-   		<a href="<{$img['img'][$big_size]}>"><img src="<{$img['img'][$size]}>"></a>
-   			<br/>
+    <foreach name="list" item="item">
+	   	<!-- <{$item['slug']}>
+	   	<br/>
+	   	<{$item['time']|date="Y-m-d",###}>
+	   	<br/>
+	   	<{$item['summary']}>
+	   	<br/> -->
+	   	<foreach name="item['photos']" item="img">
+	   		<a href="<{$img['img'][$big_size]}>"><img src="<{$img['img'][$size]}>"></a>
+	   	</foreach>
+	   	<hr/>
    	</foreach>
-   	<hr/>
+   	<!-- <foreach name="list" item="item">
+   			<a href="<{$item[$big_size]}>"><img src="<{$item[$size]}>"></a>
    	</foreach> -->
-   	<foreach name="list" item="item">
-		<a href="<{$item[$big_size]}>"><img src="<{$item[$size]}>"></a>
-   	</foreach>
     <form action="__CONTROLLER__" method="post" id="form">
     	b<input type="text" name="blog" value="<{$blog|default=''}>">
     	s<input type="text" name="size" value="<{$size|default=''}>">
