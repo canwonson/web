@@ -137,10 +137,14 @@ class ImgController extends Controller
 			$data['photos'] = json_encode($value['photos']);
 			$map['slug'] = $value['slug'];
 			$map['time'] = $value['timestamp'];
+			$map['blog'] = $value['blog'];
 			$Img = M('img');
 			$count = $Img->where($map)->count();
 			if (!$count){
 				$Img ->add($data);
+				$page_info['page'] = 1;
+				$page_info['time'] = time();
+				$ImgPage->where(array('name'=>$blog))->save($page_info);
 			}
 		}
 	}
