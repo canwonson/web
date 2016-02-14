@@ -5,31 +5,6 @@ use QL\QueryList;
 
 class ImgController extends Controller
 {
-	/*public function index(){
-		$num = I('post.num',5);
-		$p = I('post.p',1);
-		$blog = I('post.blog');
-		$size = I('post.size',5);
-		$big_size = I('post.big_size',0);
-		$start = ($p - 1)*$num;
-		$url = 'http://'.$blog.'.tumblr.com/api/read?type=photo&num='.$num.'&start='.$start;
-		$rules = array(
-			'0'  => array('post>photoset>photo>photo-url[max-width="1280"]','text'),
-			'1'  => array('post>photoset>photo>photo-url[max-width="500"]','text'),
-			'2'  => array('post>photoset>photo>photo-url[max-width="400"]','text'),
-			'3'  => array('post>photoset>photo>photo-url[max-width="250"]','text'),
-			'4'  => array('post>photoset>photo>photo-url[max-width="100"]','text'),
-			'5'  => array('post>photoset>photo>photo-url[max-width="75"]','text')
-			);
-		$data = QueryList::Query($url,$rules)->data;
-		$this->assign('list',$data);
-		$this->assign('blog',$blog);
-		$this->assign('size',$size);
-		$this->assign('big_size',$big_size);
-		$this->assign('p',$p);
-		$this->assign('num',$num);
-		$this->display();
-	}*/
 
 	public function index(){
 		$num = I('post.num',20);
@@ -129,6 +104,8 @@ class ImgController extends Controller
 		if(!$result['response']['posts']){
 			exit;
 		}
+
+
 		foreach ($result['response']['posts'] as $key => $value) {
 			$data['slug'] = $value['slug'];
 			$data['time'] = $value['timestamp'];

@@ -216,8 +216,9 @@ class IndexController extends Controller
     	$session_info = $WeixinUserSession->where($map)->find();
     	$parame = json_decode($session_info['parame'],true);
     	$p = $parame['p'];
+    	$start = ($p - 1)*8;
     	$source && $where['source'] = $source;
-    	$list = $Good->where($where)->limit($p,8)->select();
+    	$list = $Good->where($where)->limit($start,8)->order('time desc')->select();
         return $list;
     }
 
