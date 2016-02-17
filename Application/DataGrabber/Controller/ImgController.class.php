@@ -11,7 +11,7 @@ class ImgController extends Controller
 		$p = I('post.p',1);
 		$blog = I('post.blog');
 		$size = I('post.size',5);
-		$big_size = I('post.big_size',3);
+		$big_size = I('post.big_size',0);
 		$start = ($p - 1)*$num;
 		$api = 'fuiKNFp9vQFvjLNvx4sUwti4Yb5yGutBN4Xh10LXZhhRKjWlV4';
 		$url = 'http://api.tumblr.com/v2/blog/'.$blog.'.tumblr.com/posts/photo?offset='.$start.'&api_key='.$api.'&limit='.$num;
@@ -30,6 +30,7 @@ class ImgController extends Controller
 				}
 			}
 		}
+		dump($list);
 		$this->assign('list',$list);
 		$this->assign('blog',$blog);
 		$this->assign('size',$size);
@@ -114,17 +115,22 @@ class ImgController extends Controller
 			$data['photos'] = json_encode($value['photos']);
 			$map['slug'] = $value['slug'];
 			$map['time'] = $value['timestamp'];
-			$map['blog'] = $value['blog'];
+			$map['blog'] = $blog;
 			$Img = M('img');
 			$count = $Img->where($map)->count();
 			if (!$count){
-				$Img ->add($data);
+				$Img->add($data);
+			}else{
 				$page_info['page'] = 1;
 				$page_info['time'] = time();
 				$ImgPage->where(array('name'=>$blog))->save($page_info);
 			}
 		}
 	}
+
+	/*public function imgShow(){
+		$imgUrl=
+	}*/
 }
 
 ?>

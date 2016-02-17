@@ -6,20 +6,32 @@ class IndexController extends Controller
 {
 	public function index(){
 		@set_time_limit(0);
-		$GoodUrl = M('good_url');
+		$store_table = 'good_url';
+
+		$rules = array(
+			'good_name'    => array('.article_title ','text'),
+			'good_price'   => array('.article_title >span','text'),
+			'good_img'     => array('.pic-box>img','src'),
+			'shop_name'    => array('.article-meta-box>.article_meta:eq(1)>span:eq(0)>a','text'),
+			'good_buy_url' => array('.buy>a','href'),
+			'good_intr1'    => array('.item-box:eq(0)>.inner-block>p','text'),
+			'good_intr2'    => array('.item-box:eq(1)>.inner-block>p','text'),
+			);
+
+		$Obj_table = M($store_table);
 		$UrlManager = new UrlManagerController();
 		$HtmlParser = new HtmlParserController();
 		$crawl_urls = $this->getCrawlUrls();
 		foreach ($crawl_urls as $source => $url) {
 			$urls = $UrlManager->getUrls2($url);
-			$list = $UrlManager->UrlStore($urls);
+			$list = $UrlManager->UrlStore($urls,$store_table);
 			foreach ($list as $url) {
-				$data = $HtmlParser->parse($url,$source);
+				$data = $HtmlParser->parse($url,$source,$rules);
 				$result = $this->dataStore($data,$source);
 				if($result){
 					$where['url'] = $url;
 					$set['status'] = 1;
-					$GoodUrl->where($where)->save($set);
+					$Obj_table->where($where)->save($set);
 				}
 			}
 		}
