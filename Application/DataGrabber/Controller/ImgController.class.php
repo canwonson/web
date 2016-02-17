@@ -46,7 +46,7 @@ class ImgController extends Controller
 		$num = I('post.num',20);
 		$p = I('post.p',1);
 		$size = I('post.size',5);
-		$big_size = I('post.big_size',3);
+		$big_size = I('post.big_size',0);
 		$blog = I('post.blog');
 		$start = ($p - 1)*$num;
 		$Img = M('img');
@@ -128,9 +128,6 @@ class ImgController extends Controller
 		}
 	}
 
-	/*public function imgShow(){
-		$imgUrl=
-	}*/
 }
 
 ?>
