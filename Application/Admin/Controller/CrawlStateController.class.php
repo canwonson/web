@@ -8,7 +8,7 @@ class CrawlStateController extends AdminController
 
 	public function index()
 	{
-		$output = system("crontab -l",$output);
+		$output = system("ping 127.0.0.1",$output);
 		dump($output);die;
     	$this->assign('output',$output);
 		$this->display();
