@@ -8,7 +8,7 @@ class CrawlStateController extends AdminController
 
 	public function index()
 	{
-		exec("ping 127.0.0.1",$output);
+		system("ls",$output);
     	$this->assign('output',$output);
 		$this->display();
 	}
