@@ -1,0 +1,67 @@
+<extend name="Common/layout_base" />
+<block name="ext_link">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- DataTables -->
+	<link rel="stylesheet" href="__PUBLIC__/admin/plugins/datatables/dataTables.bootstrap.css">
+</block>
+<block name="content">
+<!-- Main content -->
+	<section class="content">
+	    <div class="row">
+	    	<div class="box box-danger">
+				<div class="box-header with-border">
+					<h4>注意</h4>
+					<div class="box-tools pull-right">
+		                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+		                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+		            </div>
+				</div>
+				<div class="box-body">
+					<div class="col-xs-12">
+						<form class="form-horizontal" name="add_menu_form" id="add_menu_form" action="javascript:;">
+							<div class="col-xs-12">
+								<div class="alert alert-warning alert-dismissible" id="explain_warning">
+					                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+					                <h4><i class="icon fa fa-warning"></i> 说明:</h4>
+					                1、《控/方》：意思是 控制器/方法; 例如 Sys/sys_list<br/>
+									2、css为控制左侧导航顶级栏目前图标样式，具体可查看FontAwesome图标CSS样式
+					            </div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+	    	<div class="box">
+    			<div class="box-header with-border">
+    				<h4 class="box-title">编辑配置</h4>
+    			</div>
+    			<div class="box-body">
+    				<div class="col-xs-12">
+    					<include file="Common/error" />
+    					<include file="Common/success" />
+    					<form action="__CONTROLLER__/update" method="post">
+    						<include file="_form" />
+    						<input type="hidden" name="id" value="<{$data['id']}>"></input>
+    						<div class="col-md-8">
+	                            <div class="form-group">
+	                                <div class="col-md-10 col-md-offset-2">
+	                                    <button type="submit" class="btn btn-primary">
+	                                        <i class="fa fa-save"></i>
+	                                        更新
+	                                    </button>
+	                                </div>
+	                            </div>
+	                        </div>
+    					</form>
+    				</div>
+    			</div>
+	    	</div>
+	    </div>
+	</section>
+</block>
+<block name="ext_js">
+
+</block>

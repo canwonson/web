@@ -1,0 +1,57 @@
+<extend name="Common/layout_base" />
+<block name="ext_link">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- DataTables -->
+	<link rel="stylesheet" href="__PUBLIC__/admin/plugins/datatables/dataTables.bootstrap.css">
+</block>
+<block name="content">
+<!-- Main content -->
+	<section class="content">
+	    <div class="row">
+	    	<div class="box">
+    			<div class="box-header with-border">
+    				<h4 class="box-title"><{$table}></h4>
+    			</div>
+    			<div class="box-body">
+    				<div class="col-xs-12">
+	    				<table id="data_table" class="table table-bordered table-hover">
+	    					<thead>
+				                <tr>
+				                  	<foreach name="tabel_info" item="info">
+				                  		<th><{$info['field']}></th>
+				                  	</foreach>
+				                </tr>
+			                </thead>
+			                <tbody>
+			                	<foreach name="data" item="value">
+			                		<tr>
+			                			<foreach name="tabel_info" item="info">
+					                  	<td><{$value[$info['field']]}></td>
+					                  	</foreach>
+			                		</tr>
+			                	</foreach>
+			                </tbody>
+	    				</table>
+    				</div>
+    			</div>
+	    	</div>
+	    </div>
+	</section>
+</block>
+<block name="ext_js">
+<!-- DataTables -->
+<script src="__PUBLIC__/admin/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="__PUBLIC__/admin/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<!-- page script -->
+<script>
+  	$(function () {
+	    $('#data_table').DataTable({
+	    	"lengthChange": false,
+	    	"ordering": false,
+	    });
+  	});
+</script>
+</block>

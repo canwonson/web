@@ -1,0 +1,93 @@
+<extend name="Common/layout_base" />
+<block name="ext_link">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- DataTables -->
+	<link rel="stylesheet" href="__PUBLIC__/admin/plugins/datatables/dataTables.bootstrap.css">
+	<!-- Confirm.js -->
+	<link rel="stylesheet" href="__PUBLIC__/confirm.js/css/jquery-confirm.css">
+</block>
+<block name="content">
+<!-- Main content -->
+	<section class="content">
+	    <div class="row">
+	    	<div class="box">
+    			<div class="box-header with-border">
+    				<h4 class="box-title">数据列表</h4>
+    			</div>
+    			<div class="box-body">
+    				<div class="col-xs-12">
+    					<a href="__CONTROLLER__/create"><button class="btn btn-danger">新增</button></a>
+	    				<table id="data_table" class="table table-bordered table-hover">
+	    					<thead>
+				                <tr>
+				                  	<th></th>
+				                 	<th>数据表名称</th>
+				                 	<th>表注解</th>
+				                  	<th>数据量</th>
+				                  	<th>添加时间</th>
+				                  	<th>操作</th>
+				                </tr>
+			                </thead>
+			                <tbody>
+			                	<foreach name="data" item="table">
+			                		<tr>
+			                			<td><{$key+1}></td>
+			                			<td><{$table['table_name']}></td>
+			                			<td><{$table['table_comment']}></td>
+			                			<td><{$table['table_rows']}></td>
+			                			<td><{$table['create_time']}></td>
+			                			<td>
+			                				<a href="__CONTROLLER__/show/table/<{$table['table_name']}>" class="btn btn-xs btn-info">
+					                            <i class="fa fa-edit"></i> 查看
+					                        </a>
+					                        <a href="__CONTROLLER__/delete/table/<{$table['table_name']}>" class="btn btn-xs btn-danger confirm_delete">
+					                            <i class="fa  fa-trash-o"></i> 删除
+					                        </a>
+					                        <a href="__CONTROLLER__/delete/id/<{$deploy['id']}>" class="btn btn-xs btn-warning">
+					                            <i class="fa  fa-trash-o"></i> 清空
+					                        </a>
+			                			</td>
+			                		</tr>
+			                	</foreach>
+			                </tbody>
+	    				</table>
+    				</div>
+    			</div>
+	    	</div>
+	    </div>
+	</section>
+</block>
+<block name="ext_js">
+<!-- DataTables -->
+<script src="__PUBLIC__/admin/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="__PUBLIC__/admin/plugins/datatables/dataTables.bootstrap.min.js"></script>
+<script src="__PUBLIC__/confirm.js/js/jquery-confirm.js"></script>
+<!-- page script -->
+<script>
+  	$(function () {
+	    $('#data_table').DataTable({
+	    	"lengthChange": false,
+	    	"ordering": false,
+	    });
+
+	    $('a.confirm_delete').confirm({
+	        title: '是否确认删除?',
+	        columnClass: 'col-md-4 col-md-offset-4',
+	        confirmButtonClass: 'btn-info',
+    		cancelButtonClass: 'btn-danger',
+    		closeIcon: true,
+    		theme: 'material',
+    		confirmButton:'确定',
+    		cancelButton:'取消',
+    		icon: 'fa fa-warning',
+    		content: false,
+	        confirm: function(){
+	            window.parent.location=($('a.confirm_delete').attr('href'));
+	        },
+	    });
+  	});
+</script>
+</block>

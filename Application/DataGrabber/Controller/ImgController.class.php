@@ -30,7 +30,6 @@ class ImgController extends Controller
 				}
 			}
 		}
-		dump($list);
 		$this->assign('list',$list);
 		$this->assign('blog',$blog);
 		$this->assign('size',$size);

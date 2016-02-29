@@ -6,80 +6,12 @@
 	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<!-- DataTables -->
 	<link rel="stylesheet" href="__PUBLIC__/admin/plugins/datatables/dataTables.bootstrap.css">
+	<!-- Confirm.js -->
+	<link rel="stylesheet" href="__PUBLIC__/confirm.js/css/jquery-confirm.css">
 </block>
 <block name="content">
 <!-- Main content -->
 	<section class="content">
-		<div class="row">
-			<div class="box box-danger">
-				<div class="box-header with-border">
-					<h4>新增菜单</h4>
-					<div class="box-tools pull-right">
-		                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-		                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-		            </div>
-				</div>
-				<div class="box-body">
-					<div class="col-xs-12">
-						<form class="form-horizontal" name="add_menu_form" id="add_menu_form" action="javascript:;">
-							<div class="col-xs-12">
-								<div class="alert alert-warning alert-dismissible" id="explain_warning">
-					                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					                <h4><i class="icon fa fa-warning"></i> 说明:</h4>
-					                1、《控/方》：意思是 控制器/方法; 例如 Sys/sys_list<br/>
-									2、css为控制左侧导航顶级栏目前图标样式，具体可查看FontAwesome图标CSS样式
-					            </div>
-								<small>状态:</small>
-								<small>
-									<select name="status">
-										<option value="1">显示</option>
-										<option value="0">不显示</option>
-									</select>
-								</small>
-								<small>父级:</small>
-								<small>
-									<select name="pid">
-										<option value="0">--默认顶级--</option>
-											<foreach name="menus_data" item="module">
-												<option value="<{$module['id']}>"><{$module['title']}></option>
-											</foreach>
-									</select>
-								</small>
-								<small>名称:</small>
-								<small>
-									<input type="text" name="title">
-								</small>
-								<small>控制器:</small>
-								<small>
-									<input type="text" name="controller">
-								</small>
-								<small>图标:</small>
-								<small>
-									<input type="text" name="icon">
-								</small>
-								<small>排序:</small>
-								<small>
-									<input type="text" name="sort" value="1">
-								</small>
-								<small>
-									<button class="btn btn-xs btn-danger ruleadd" id="add_menu">添加菜单</button>
-								</small>
-								<br/>
-								<br/>
-					            <div class="alert alert-success " id="explain_success" style="display: none">
-					                <button type="button" class="close" id="explain_success_closs">×</button>
-					                <h4><i class="icon fa fa-check"></i> <span id="msg"></span></h4>
-					            </div>
-					            <div class="alert alert-danger" id="explain_danger" style="display: none">
-					                <button type="button" class="close" id="explain_danger_closs">×</button>
-					                <h4><i class="icon fa fa-ban"></i> <span id="msg"></span></h4>
-					            </div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
 	    <div class="row">
 	    	<div class="box">
     			<div class="box-header with-border">
@@ -87,6 +19,7 @@
     			</div>
     			<div class="box-body">
     				<div class="col-xs-12">
+    					<a href="__CONTROLLER__/create"><button class="btn btn-danger">新增</button></a>
 	    				<table id="data_table" class="table table-bordered table-hover">
 	    					<thead>
 				                <tr>
@@ -108,21 +41,33 @@
 			                			<td><{$module['status']}></td>
 			                			<td><{$module['createtime']|date="Y-m-d H:i:s",###}></td>
 			                			<td><{$module['sort']}></td>
-			                			<td></td>
+			                			<td>
+			                				<a href="__CONTROLLER__/edit/id/<{$module['id']}>" class="btn btn-xs btn-info">
+					                            <i class="fa fa-edit"></i> 编辑
+					                        </a>
+					                        <a href="__CONTROLLER__/delete/id/<{$module['id']}>" class="btn btn-xs btn-danger">
+					                            <i class="fa  fa-trash-o"></i> 删除
+					                        </a>
+			                			</td>
 			                		</tr>
-			                		<if condition="module['menus_list']">
-										<foreach name="module['menus_list']" item="menu">
-											<tr>
-					                			<td><{$menu['id']}></td>
-					                			<td>----<{$menu['title']}></td>
-					                			<td><{$menu['controller']}></td>
-					                			<td><{$menu['status']}></td>
-					                			<td><{$menu['createtime']|date="Y-m-d H:i:s",###}></td>
-					                			<td><{$menu['sort']}></td>
-					                			<td></td>
-					                		</tr>
-										</foreach>
-			                		</if>
+									<foreach name="module['menus_list']" item="menu">
+										<tr>
+				                			<td><{$menu['id']}></td>
+				                			<td>----<{$menu['title']}></td>
+				                			<td><{$menu['controller']}></td>
+				                			<td><{$menu['status']}></td>
+				                			<td><{$menu['createtime']|date="Y-m-d H:i:s",###}></td>
+				                			<td><{$menu['sort']}></td>
+				                			<td>
+						                        <a href="__CONTROLLER__/edit/id/<{$menu['id']}>" class="btn btn-xs btn-info">
+						                            <i class="fa fa-edit"></i> 编辑
+						                        </a>
+						                        <a href="__CONTROLLER__/delete/id/<{$menu['id']}>" class="btn btn-xs btn-danger confirm_delete">
+						                            <i class="fa  fa-trash-o"></i> 删除
+						                        </a>
+						                    </td>
+				                		</tr>
+									</foreach>
 			                	</foreach>
 			                </tbody>
 	    				</table>
@@ -136,46 +81,30 @@
 <!-- DataTables -->
 <script src="__PUBLIC__/admin/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="__PUBLIC__/admin/plugins/datatables/dataTables.bootstrap.min.js"></script>
+
+<script src="__PUBLIC__/confirm.js/js/jquery-confirm.js"></script>
 <!-- page script -->
 <script>
   	$(function () {
 	    $('#data_table').DataTable({
 	    	"lengthChange": false,
+	    	"ordering": false,
 	    });
 
-	    $('#add_menu').click(function(){
-	    	$('#explain_success').fadeOut();
-	    	$('#explain_danger').fadeOut();
-	    	var data=$('#add_menu_form').serialize();
-	    	$.ajax({
-	    		url:'__CONTROLLER__/create',
-	    		type:'post',
-			    datatype:'json',
-			    data:data,
-			    success:function(msg){
-			    	if(typeof(msg.status)=='undefined'){
-			            $('#explain_danger').find('#msg').html('系统错误');
-				        $('#explain_danger').fadeIn();
-			        }else{
-			        	if(msg.status==1){
-			        		$('#explain_success').find('#msg').html(msg.info);
-				            $('#explain_success').fadeIn();
-				        }
-				        if(msg.status==0){
-				        	$('#explain_danger').find('#msg').html(msg.info);
-				            $('#explain_danger').fadeIn();
-				        }
-			        }
-			    }
-	    	});
-	    });
-
-	    $('#explain_success_closs').click(function(){
-	    	$('#explain_success').fadeOut();
-	    });
-
-	    $('#explain_danger_closs').click(function(){
-	    	$('#explain_danger').fadeOut();
+	    $('a.confirm_delete').confirm({
+	        title: '是否确认删除?',
+	        columnClass: 'col-md-4 col-md-offset-4',
+	        confirmButtonClass: 'btn-info',
+    		cancelButtonClass: 'btn-danger',
+    		closeIcon: true,
+    		theme: 'material',
+    		confirmButton:'确定',
+    		cancelButton:'取消',
+    		icon: 'fa fa-warning',
+    		content: false,
+	        confirm: function(){
+	            window.parent.location=($('a.confirm_delete').attr('href'));
+	        },
 	    });
   	});
 </script>

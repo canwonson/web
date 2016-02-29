@@ -5,9 +5,12 @@ use QL\QueryList;
 
 class UrlManagerController extends Controller
 {
-	public function getPage($url){
+	public $url = null;
+	public $param = null;
+
+	public function getPage(){
 		$Curl = new \Lib\Net\Curl();
-		$Curl->url = $url;
+		$Curl->url = $this->url;
 		$result = $Curl->exec();
 		return $result;
 	}
@@ -25,16 +28,14 @@ class UrlManagerController extends Controller
 		return $urls;
 	}
 
-	public function getUrls2($url,$rule,$attr){
+	public function getUrls2(){
 		//HTTP操作扩展
 		$urls = QueryList::run('Request',[
-		        'target' => $url,
+		        'target' => $this->url,
 		        'method' => 'GET',
 		        'user_agent'=>'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0',
 		        'timeout' =>'30'
-		    ])->setQuery(['link' => ['.listTitle>h2>a','href']])->getData(function($item){
-		    return $item['link'];
-		});
+		    ])->setQuery($this->param['rules'])->getData();
 		return $urls;
 	}
 

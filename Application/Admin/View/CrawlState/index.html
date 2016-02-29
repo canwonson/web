@@ -1,0 +1,69 @@
+<extend name="Common/layout_base" />
+<block name="ext_link">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<!-- Ionicons -->
+	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</block>
+<block name="content">
+<!-- Main content -->
+	<section class="content">
+	    <div class="row">
+	    	<div class="box">
+    			<div class="box-header with-border">
+    				<h4 class="box-title">爬虫状态</h4>
+    			</div>
+    			<div class="box-body">
+    				<div class="col-xs-12">
+    					<div class="panel panel-default">
+    						<div class="panel-heading">当前配置:</div>
+						    <div class="panel-body">
+						       	<foreach name="output" item="value">
+						       		<{$value}>
+						       	</foreach>
+						    </div>
+						</div>
+						<div class="panel panel-default">
+    						<div class="panel-heading">生成配置:</div>
+						    <div class="panel-body" id="create_deploy">
+						        Basic panel example
+						    </div>
+						</div>
+						<br/>
+						<br/>
+						<div class="form-group">
+                            <div class="col-md-10 col-md-offset-2">
+                                <button name="create" class="btn btn-primary">
+                                    <i class="fa fa-edit"></i>
+                                    生成
+                                </button>
+                                <button name="syn" class="btn btn-success">
+                                    <i class="fa fa-edit"></i>
+                                    同步
+                                </button>
+                            </div>
+                        </div>
+    				</div>
+    			</div>
+	    	</div>
+	    </div>
+	</section>
+</block>
+<block name="ext_js">
+<script>
+	$(function () {
+	   $('button[name="create"]').click(function(){
+	   		var path = $('input[name="path"]').val();
+	   		$.ajax({
+	   			url:'__CONTROLLER__/create',
+	   			type:'post',
+	   			datatype:'json',
+	   			data:path,
+	   			success:function(msg){
+	   				$('#create_deploy').html(msg.content);
+	   			}
+	   		});
+	   });
+  	});
+</script>
+</block>

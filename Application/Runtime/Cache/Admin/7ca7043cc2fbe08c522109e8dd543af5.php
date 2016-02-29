@@ -17,8 +17,6 @@
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="/web/Public/admin/css/skins/_all-skins.min.css">
-    <!-- bootstrap wysihtml5 - text editor -->
-    <link rel="stylesheet" href="/web/Public/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -32,6 +30,8 @@
 	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<!-- DataTables -->
 	<link rel="stylesheet" href="/web/Public/admin/plugins/datatables/dataTables.bootstrap.css">
+	<!-- Confirm.js -->
+	<link rel="stylesheet" href="/web/Public/confirm.js/css/jquery-confirm.css">
 
 </head>
 <body class="hold-transition skin-black-light sidebar-mini">
@@ -154,16 +154,19 @@
 	    <!-- sidebar menu: : style can be found in sidebar.less -->
 	    <ul class="sidebar-menu">
 	    	<li class="header">MAIN NAVIGATION</li>
-	        <?php if(is_array($__MENU__)): foreach($__MENU__ as $key=>$module): ?><li class="treeview <?php if(module.active): ?>active<?php endif; ?>">
-	        		<a href="#">
-			            <i class="<?php echo ($module['icon']); ?>"></i> <span><?php echo ($module['title']); ?></span> <i class="fa fa-angle-left pull-right"></i>
-			        </a>
-			        <?php if(is_array($module['menus_list'])): foreach($module['menus_list'] as $key=>$menu): ?><ul class="treeview-menu">
-				            <li <?php if(menu.active): ?>class="active"<?php endif; ?> ><a href="<?php echo ($menu['controller']); ?>"><i class="<?php echo ($menu['icon']); ?>"></i> <?php echo ($menu['title']); ?></a></li>
-				        </ul><?php endforeach; endif; ?>
-	        	</li><?php endforeach; endif; ?>
+	        <?php if(is_array($__MENU__)): foreach($__MENU__ as $key=>$module): ?><li <?php if(($module['active']) == "1"): ?>class="active treeview"<?php else: ?>class="treeview"<?php endif; ?> >
+		          	<a href="#">
+		            	<i class="<?php echo ($module['icon']); ?>"></i>
+		            	<span><?php echo ($module['title']); ?></span>
+		            	<i class="fa fa-angle-left pull-right"></i>
+		          	</a>
+		          	<ul class="treeview-menu">
+		          		<?php if(is_array($module['menus_list'])): foreach($module['menus_list'] as $key=>$menu): ?><li <?php if(($menu['active']) == "1"): ?>class="active"<?php endif; ?> ><a href="/web/index.php/Admin/<?php echo ($menu['controller']); ?>"><i class="<?php echo ($menu['icon']); ?>"></i> <?php echo ($menu['title']); ?></a></li><?php endforeach; endif; ?>
+		          	</ul>
+		        </li><?php endforeach; endif; ?>
 	    </ul>
 	</select>
+    <!-- /.sidebar -->
 </aside>
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
@@ -178,74 +181,6 @@
         
 <!-- Main content -->
 	<section class="content">
-		<div class="row">
-			<div class="box box-danger">
-				<div class="box-header with-border">
-					<h4>新增菜单</h4>
-					<div class="box-tools pull-right">
-		                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-		                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-		            </div>
-				</div>
-				<div class="box-body">
-					<div class="col-xs-12">
-						<form class="form-horizontal" name="add_menu_form" id="add_menu_form" action="javascript:;">
-							<div class="col-xs-12">
-								<div class="alert alert-warning alert-dismissible" id="explain_warning">
-					                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-					                <h4><i class="icon fa fa-warning"></i> 说明:</h4>
-					                1、《控/方》：意思是 控制器/方法; 例如 Sys/sys_list<br/>
-									2、css为控制左侧导航顶级栏目前图标样式，具体可查看FontAwesome图标CSS样式
-					            </div>
-								<small>状态:</small>
-								<small>
-									<select name="status">
-										<option value="1">显示</option>
-										<option value="0">不显示</option>
-									</select>
-								</small>
-								<small>父级:</small>
-								<small>
-									<select name="pid">
-										<option value="0">--默认顶级--</option>
-											<?php if(is_array($menus_data)): foreach($menus_data as $key=>$module): ?><option value="<?php echo ($module['id']); ?>"><?php echo ($module['title']); ?></option><?php endforeach; endif; ?>
-									</select>
-								</small>
-								<small>名称:</small>
-								<small>
-									<input type="text" name="title">
-								</small>
-								<small>控制器:</small>
-								<small>
-									<input type="text" name="controller">
-								</small>
-								<small>图标:</small>
-								<small>
-									<input type="text" name="icon">
-								</small>
-								<small>排序:</small>
-								<small>
-									<input type="text" name="sort" value="1">
-								</small>
-								<small>
-									<button class="btn btn-xs btn-danger ruleadd" id="add_menu">添加菜单</button>
-								</small>
-								<br/>
-								<br/>
-					            <div class="alert alert-success " id="explain_success" style="display: none">
-					                <button type="button" class="close" id="explain_success_closs">×</button>
-					                <h4><i class="icon fa fa-check"></i> <span id="msg"></span></h4>
-					            </div>
-					            <div class="alert alert-danger" id="explain_danger" style="display: none">
-					                <button type="button" class="close" id="explain_danger_closs">×</button>
-					                <h4><i class="icon fa fa-ban"></i> <span id="msg"></span></h4>
-					            </div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
 	    <div class="row">
 	    	<div class="box">
     			<div class="box-header with-border">
@@ -253,6 +188,7 @@
     			</div>
     			<div class="box-body">
     				<div class="col-xs-12">
+    					<a href="/web/index.php/Admin/AdminMenu/create"><button class="btn btn-danger">新增</button></a>
 	    				<table id="data_table" class="table table-bordered table-hover">
 	    					<thead>
 				                <tr>
@@ -273,17 +209,31 @@
 			                			<td><?php echo ($module['status']); ?></td>
 			                			<td><?php echo (date("Y-m-d H:i:s",$module['createtime'])); ?></td>
 			                			<td><?php echo ($module['sort']); ?></td>
-			                			<td></td>
+			                			<td>
+			                				<a href="/web/index.php/Admin/AdminMenu/edit/id/<?php echo ($module['id']); ?>" class="btn btn-xs btn-info">
+					                            <i class="fa fa-edit"></i> 编辑
+					                        </a>
+					                        <a href="/web/index.php/Admin/AdminMenu/delete/id/<?php echo ($module['id']); ?>" class="btn btn-xs btn-danger">
+					                            <i class="fa  fa-trash-o"></i> 删除
+					                        </a>
+			                			</td>
 			                		</tr>
-			                		<?php if(module['menus_list']): if(is_array($module['menus_list'])): foreach($module['menus_list'] as $key=>$menu): ?><tr>
-					                			<td><?php echo ($menu['id']); ?></td>
-					                			<td>----<?php echo ($menu['title']); ?></td>
-					                			<td><?php echo ($menu['controller']); ?></td>
-					                			<td><?php echo ($menu['status']); ?></td>
-					                			<td><?php echo (date("Y-m-d H:i:s",$menu['createtime'])); ?></td>
-					                			<td><?php echo ($menu['sort']); ?></td>
-					                			<td></td>
-					                		</tr><?php endforeach; endif; endif; endforeach; endif; ?>
+									<?php if(is_array($module['menus_list'])): foreach($module['menus_list'] as $key=>$menu): ?><tr>
+				                			<td><?php echo ($menu['id']); ?></td>
+				                			<td>----<?php echo ($menu['title']); ?></td>
+				                			<td><?php echo ($menu['controller']); ?></td>
+				                			<td><?php echo ($menu['status']); ?></td>
+				                			<td><?php echo (date("Y-m-d H:i:s",$menu['createtime'])); ?></td>
+				                			<td><?php echo ($menu['sort']); ?></td>
+				                			<td>
+						                        <a href="/web/index.php/Admin/AdminMenu/edit/id/<?php echo ($menu['id']); ?>" class="btn btn-xs btn-info">
+						                            <i class="fa fa-edit"></i> 编辑
+						                        </a>
+						                        <a href="/web/index.php/Admin/AdminMenu/delete/id/<?php echo ($menu['id']); ?>" class="btn btn-xs btn-danger confirm_delete">
+						                            <i class="fa  fa-trash-o"></i> 删除
+						                        </a>
+						                    </td>
+				                		</tr><?php endforeach; endif; endforeach; endif; ?>
 			                </tbody>
 	    				</table>
     				</div>
@@ -307,6 +257,7 @@
     <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
+
 <!-- jQuery 2.1.4 -->
 <script src="/web/Public/admin/plugins/jQuery/jQuery-2.1.4.min.js"></script>
 <!-- jQuery UI 1.11.4 -->
@@ -319,51 +270,37 @@
 <script src="/web/Public/common/bootstrap/js/bootstrap.min.js"></script>
 <!-- Bootstrap WYSIHTML5 -->
 <script src="/web/Public/admin/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
 <script src="/web/Public/admin/js/app.min.js"></script>
+<script src="/web/Public/admin/js/demo.js"></script>
 
 <!-- DataTables -->
 <script src="/web/Public/admin/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="/web/Public/admin/plugins/datatables/dataTables.bootstrap.min.js"></script>
+
+<script src="/web/Public/confirm.js/js/jquery-confirm.js"></script>
 <!-- page script -->
 <script>
   	$(function () {
 	    $('#data_table').DataTable({
 	    	"lengthChange": false,
+	    	"ordering": false,
 	    });
 
-	    $('#add_menu').click(function(){
-	    	$('#explain_success').fadeOut();
-	    	$('#explain_danger').fadeOut();
-	    	var data=$('#add_menu_form').serialize();
-	    	$.ajax({
-	    		url:'/web/index.php/Admin/AdminMenu/create',
-	    		type:'post',
-			    datatype:'json',
-			    data:data,
-			    success:function(msg){
-			    	if(typeof(msg.status)=='undefined'){
-			            $('#explain_danger').find('#msg').html('系统错误');
-				        $('#explain_danger').fadeIn();
-			        }else{
-			        	if(msg.status==1){
-			        		$('#explain_success').find('#msg').html(msg.info);
-				            $('#explain_success').fadeIn();
-				        }
-				        if(msg.status==0){
-				        	$('#explain_danger').find('#msg').html(msg.info);
-				            $('#explain_danger').fadeIn();
-				        }
-			        }
-			    }
-	    	});
-	    });
-
-	    $('#explain_success_closs').click(function(){
-	    	$('#explain_success').fadeOut();
-	    });
-
-	    $('#explain_danger_closs').click(function(){
-	    	$('#explain_danger').fadeOut();
+	    $('a.confirm_delete').confirm({
+	        title: '是否确认删除?',
+	        columnClass: 'col-md-4 col-md-offset-4',
+	        confirmButtonClass: 'btn-info',
+    		cancelButtonClass: 'btn-danger',
+    		closeIcon: true,
+    		theme: 'material',
+    		confirmButton:'确定',
+    		cancelButton:'取消',
+    		icon: 'fa fa-warning',
+    		content: false,
+	        confirm: function(){
+	            window.parent.location=($('a.confirm_delete').attr('href'));
+	        },
 	    });
   	});
 </script>

@@ -1,0 +1,84 @@
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#base" aria-controls="base" role="tab" data-toggle="tab">基本配置</a>
+        </li>
+        <li role="presentation">
+            <a href="#param" aria-controls="param" role="tab" data-toggle="tab">抓取配置</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="base">
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <label for="status" class="col-md-2 control-label">
+                            状态:
+                        </label>
+                        <div class="col-md-10">
+                            <select class="form-control" name="status">
+                                <option value='1' name="status" <eq name="data['status']" value="1">selected="selected"</eq> >启动</option>
+                                <option value='0' name="status" <eq name="data['status']" value="0">selected="selected"</eq> >关闭</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="form-group">
+                        <label for="title" class="col-md-2 control-label">
+                            名称:
+                        </label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="title" value="<{$data['title']}>">
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="form-group">
+                        <label for="table" class="col-md-2 control-label">
+                            数据表:
+                        </label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="table" value="<{$data['table']}>">
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                    <div class="form-group">
+                        <label for="url" class="col-md-2 control-label">
+                            爬取地址:
+                        </label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" name="url" value="<{$data['url']}>">
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+        </div>
+
+        <div role="tabpanel" class="tab-pane" id="param">
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <label for="crawl_param" class="col-md-2 control-label">
+                            配置(JSON):
+                        </label>
+                        <div class="col-md-10">
+                           <textarea  rows=10 cols=80 class="form-control" name="crawl_param"><{$data['crawl_param']}></textarea>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

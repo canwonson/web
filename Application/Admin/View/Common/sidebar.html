@@ -27,17 +27,20 @@
 	    <ul class="sidebar-menu">
 	    	<li class="header">MAIN NAVIGATION</li>
 	        <foreach name="__MENU__" item="module">
-	        	<li class="treeview <if condition='module.active'>active</if>">
-	        		<a href="#">
-			            <i class="<{$module['icon']}>"></i> <span><{$module['title']}></span> <i class="fa fa-angle-left pull-right"></i>
-			        </a>
-			        <foreach name="module['menus_list']" item="menu">
-		        		<ul class="treeview-menu">
-				            <li <if condition='menu.active'>class="active"</if> ><a href="<{$menu['controller']}>"><i class="<{$menu['icon']}>"></i> <{$menu['title']}></a></li>
-				        </ul>
-		        	</foreach>
-	        	</li>
+	        	<li <eq name="module['active']" value="1">class="active treeview"<else/>class="treeview"</eq> >
+		          	<a href="#">
+		            	<i class="<{$module['icon']}>"></i>
+		            	<span><{$module['title']}></span>
+		            	<i class="fa fa-angle-left pull-right"></i>
+		          	</a>
+		          	<ul class="treeview-menu">
+		          		<foreach name="module['menus_list']" item="menu">
+			            <li <eq name="menu['active']" value="1">class="active"</eq> ><a href="__MODULE__/<{$menu['controller']}>"><i class="<{$menu['icon']}>"></i> <{$menu['title']}></a></li>
+			            </foreach>
+		          	</ul>
+		        </li>
 	        </foreach>
 	    </ul>
 	</select>
+    <!-- /.sidebar -->
 </aside>

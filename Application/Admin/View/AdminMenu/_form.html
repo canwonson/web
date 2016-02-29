@@ -1,0 +1,72 @@
+<div class="row">
+    <div class="col-md-8">
+        <div class="form-group">
+            <label for="status" class="col-md-2 control-label">
+                状态:
+            </label>
+            <div class="col-md-10">
+                <select class="form-control" name="status">
+					<option value='1' name="status" <eq name="data['status']" value="1">selected="selected"</eq> >显示</option>
+					<option value='0' name="status" <eq name="data['status']" value="0">selected="selected"</eq> >隐藏</option>
+                </select>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="form-group">
+            <label for="pid" class="col-md-2 control-label">
+                父级:
+            </label>
+            <div class="col-md-10">
+                <select class="form-control" name="pid">
+                	<option value="0" name="pid" <eq name="data['pid']" value="0">selected="selected"</eq> >默认顶级</option>
+					<foreach name="menus_data" item="module">
+						<option value="<{$module['id']}>" name="pid" <eq name="data['pid']" value="$module['id']">selected="selected"</eq> ><{$module['title']}></option>
+					</foreach>
+                </select>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="form-group">
+            <label for="title" class="col-md-2 control-label">
+                名称:
+            </label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="title" value="<{$data['title']}>">
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="form-group">
+            <label for="controller" class="col-md-2 control-label">
+                控制器:
+            </label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="controller" value="<{$data['controller']}>">
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="form-group">
+            <label for="icon" class="col-md-2 control-label">
+                图标:
+            </label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="icon" value="<{$data['icon']}>">
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="form-group">
+            <label for="sort" class="col-md-2 control-label">
+                排序:
+            </label>
+            <div class="col-md-10">
+                <input type="text" class="form-control" name="sort" value="<{$data['sort']}>">
+            </div>
+        </div>
+        <br/>
+        <br/>
+    </div>
+</div>
